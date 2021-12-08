@@ -9,1318 +9,1482 @@
 </head>
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play MindfulScroll.</tw-noscript></noscript></tw-story>
-<tw-storydata name="MindfulScroll" startnode="4" creator="Twine" creator-version="2.3.10" ifid="C1921370-2057-4EC0-BB89-4438BB679AA0" zoom="1" format="Harlowe" format-version="3.2.0" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">tw-story {
-  background: #1A1930;
-  color: DDDDDD;
-}
-tw-link, .enchantment-link {
-    color: #80CEB9;
-}
-.visited {
-    color: #80CEB9;
-}
-tw-link:hover, .enchantment-link:hover {
-    color: #80CEB9;
-}
-.visited:hover {
-    color: #80CEB9;
-}
-a:link {
-  color: #80CEB9;
-}
-a:visited {
-  color: #80CEB9;
-}
-[tags="morning"] {
-  background: #A4E1B8;
-  color: #424651;
-}
-tw-passage[tags~="morning"] tw-link, tw-passage[tags~="morning"] .enchantment-link {
-	  color: #72435c;
-}
-tw-passage[tags~="morning"] .visited {
-	color: #72435c;
-}
-tw-passage[tags~="morning"]
-a:link {
-  color: #1b5ec6;
-}
-a:visited {
-  color: #1b5ec6;
-}
-
-[tags="Self-Care"] {
-  background: #e9ddd4;
-  color: #0d0d33;
-}
-tw-passage[tags~="Self-Care"] tw-link, tw-passage[tags~="Self-Care"] .enchantment-link {
-	color: #255bb3;
-}
-tw-passage[tags~="Self-Care"] .visited {
-	color: #255bb3;
-}</style><script role="script" id="twine-user-script" type="text/twine-javascript">/* Get the documentElement (<html>) to display the page in fullscreen */
-var elem = document.documentElement;
-
-/* View in fullscreen */
-function openFullscreen() {
-  if (elem.requestFullscreen) {
-    elem.requestFullscreen();
-  } else if (elem.webkitRequestFullscreen) { /* Safari */
-    elem.webkitRequestFullscreen();
-  } else if (elem.msRequestFullscreen) { /* IE11 */
-    elem.msRequestFullscreen();
-  }
-}
-
-/* Close fullscreen */
-function closeFullscreen() {
-  if (document.exitFullscreen) {
-    document.exitFullscreen();
-  } else if (document.webkitExitFullscreen) { /* Safari */
-    document.webkitExitFullscreen();
-  } else if (document.msExitFullscreen) { /* IE11 */
-    document.msExitFullscreen();
-  }
-}
-</script><tw-tag name="Self-Care" color="green"></tw-tag>,<tw-tag name="morning" color="yellow"></tw-tag>,<tw-tag name="night" color="blue"></tw-tag><tw-passagedata pid="1" name="morning-intro" tags="morning" position="200,150" size="100,100">
-###Good morning!
-----
-If this is the first thing you&#39;re looking at this morning, 
-
-the following screens will gently guide you through some awareness exercises and into wakefulness.
-
-(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;=XXXXXXXXXXXXXXXXXX=&quot;)[^^//(Tap anywhere to continue.)//^^]
-
-
-(after: 1ms)[(click-goto: ?Page, &quot;morning_nav&quot;)]
-
-</tw-passagedata><tw-passagedata pid="2" name="morning3" tags="morning" position="200,650" size="100,100">&#39;&#39;Good morning, beautiful human.&#39;&#39;
-$d8n[=
-Today -- the day you&#39;re about to start -- is an unrepeatable miracle.
-
-$d8n[=//You// are an unrepeatable miracle.
-
-$d8n[=It sounds cheesy, but it&#39;s true.⠀»
+    <tw-storydata name="MindfulScroll" startnode="4" creator="Twine" creator-version="2.3.10" ifid="C1921370-2057-4EC0-BB89-4438BB679AA0" zoom="1" format="Harlowe" format-version="3.2.0" options="" hidden>
+        <style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">
+        tw-story {
+            background: #1A1930;
+            color: DDDDDD;
+        }
+
+        tw-link, .enchantment-link {
+            color: #80CEB9;
+        }
+
+        .visited {
+            color: #80CEB9;
+        }
+
+        tw-link:hover, .enchantment-link:hover {
+            color: #80CEB9;
+        }
+
+        .visited:hover {
+            color: #80CEB9;
+        }
+
+        a:link {
+            color: #80CEB9;
+        }
+
+        a:visited {
+            color: #80CEB9;
+        }
+
+        [tags="morning"] {
+            background: #A4E1B8;
+            color: #424651;
+        }
+
+        tw-passage[tags ~ ="morning"] tw-link, tw-passage[tags ~ ="morning"] .enchantment-link {
+            color: #72435c;
+        }
+
+        tw-passage[tags ~ ="morning"] .visited {
+            color: #72435c;
+        }
+
+        tw-passage[tags ~ ="morning"]
+        a:link {
+            color: #1b5ec6;
+        }
+
+        a:visited {
+            color: #1b5ec6;
+        }
+
+        [tags="Self-Care"] {
+            background: #ABB4C4;
+            color: #0d0d33;
+        }
+
+        tw-passage[tags ~ ="Self-Care"] tw-link, tw-passage[tags ~ ="Self-Care"] .enchantment-link {
+            color: #255bb3;
+        }
+
+        tw-passage[tags ~ ="Self-Care"] .visited {
+            color: #255bb3;
+        }
+        </style>
+        <script role="script" id="twine-user-script" type="text/twine-javascript">
+        /* Get the documentElement (<html>) to display the page in fullscreen */
+        var elem = document.documentElement;
+
+        /* View in fullscreen */
+        function openFullscreen() {
+            if (elem.requestFullscreen) {
+                elem.requestFullscreen();
+            } else if (elem.webkitRequestFullscreen) {
+                /* Safari */
+                elem.webkitRequestFullscreen();
+            } else if (elem.msRequestFullscreen) {
+                /* IE11 */
+                elem.msRequestFullscreen();
+            }
+        }
+
+        /* Close fullscreen */
+        function closeFullscreen() {
+            if (document.exitFullscreen) {
+                document.exitFullscreen();
+            } else if (document.webkitExitFullscreen) {
+                /* Safari */
+                document.webkitExitFullscreen();
+            } else if (document.msExitFullscreen) {
+                /* IE11 */
+                document.msExitFullscreen();
+            }
+        }
+        </script>
+        <tw-tag name="Self-Care" color="green"></tw-tag>
+        ,
+        <tw-tag name="morning" color="yellow"></tw-tag>
+        ,
+        <tw-tag name="night" color="blue"></tw-tag>
+        <tw-passagedata pid="1" name="morning-intro" tags="morning" position="200,150" size="100,100">
+        ###Good morning!
+        ----
+        If this is the first thing you&#39;re looking at this morning, 
 
-
-(after: 1ms)[(click-goto: ?Page, &quot;morning4&quot;)]
-
-</tw-passagedata><tw-passagedata pid="3" name="morningchecklist" tags="morning" position="200,3275" size="100,100">###Itty-Bitty Morning Checklist
-
-Check a few things off to build up momentum for the rest of the day. 
-
-Here are some things to try:
+        the following screens will gently guide you through some awareness exercises and into wakefulness.
 
-(checkbox: bind $clean, &quot; Wash your face or take a shower&quot;)
-(checkbox: bind $bed, &quot; Make your bed&quot;)
-(checkbox: bind $water, &quot; Drink some water&quot;)
-(checkbox: bind $coffee, &quot; Have some coffee&quot;)
-(checkbox: bind $meds, &quot; Take your meds / vitamins&quot;)
-(checkbox: bind $todo, &quot; Make a to-do list&quot;)
-(checkbox: bind $clothes, &quot; Get dressed&quot;)
-(checkbox: bind $setup, &quot; Set yourself up for the day&quot;)
+        (align:&quot;=&gt;&lt;=&quot;)+(box:&quot;=XXXXXXXXXXXXXXXXXX=&quot;)[^^//(Tap anywhere to continue.)//^^]
 
-This is just a starting point; you can make your own checklist as elaborate as you want! [[Click here|apps]] to check out some app recommendations. ■</tw-passagedata><tw-passagedata pid="4" name="Main Menu" tags="" position="550,0" size="100,100">
-###Hello there  :)
----
 
-This is MindfulScroll, an alternative to compulsive scrolling during the day&#39;s transitions.
+        (after: 1ms)[(click-goto: ?Page, &quot;morning_nav&quot;)]
 
-&#39;&#39;So, tell me what&#39;s going on.&#39;&#39;
+        </tw-passagedata>
+        <tw-passagedata pid="2" name="morning3" tags="morning" position="200,650" size="100,100">&#39;&#39;Good morning, beautiful human.&#39;&#39;
+        $d8n[=
+        Today -- the day you&#39;re about to start -- is an unrepeatable miracle.
 
-[[I just woke up|morning-intro]]
-[[I&#39;m in a funk|self-care-intro]]
-[[I&#39;m winding down for the evening|winddown-intro]]
-[[I&#39;m about to go to sleep|sleep-intro]]
+        $d8n[=//You// are an unrepeatable miracle.
 
-[^^//Recommended Display Settings//
-iOS Safari: tap the AA icon @ top left &gt; hide toolbar
-Android Chrome: 
-^^]</tw-passagedata><tw-passagedata pid="5" name="Footer" tags="footer" position="700,25" size="100,100">
+        $d8n[=It sounds cheesy, but it&#39;s true.⠀»
 
----
-(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;=XXXXXXX=&quot;)+(text-style:&quot;subscript&quot;)[[[Main Menu]] | [[Help + Extras]]
-© Julia Bushue]</tw-passagedata><tw-passagedata pid="6" name="self-care-intro" tags="Self-Care" position="550,150" size="100,100">//&#39;&#39;I feel stuck.  
 
-I can&#39;t focus or organize my thoughts.  
+        (after: 1ms)[(click-goto: ?Page, &quot;morning4&quot;)]
 
-I&#39;m in a funk.&#39;&#39;//
----
-It&#39;s okay. You&#39;ve got this. 
+        </tw-passagedata>
+        <tw-passagedata pid="3" name="morningchecklist" tags="morning" position="200,3275" size="100,100">###Itty-Bitty Morning Checklist
 
-Just take it one step at a time.
+        Check a few things off to build up momentum for the rest of the day. 
 
----
-####Stop.
+        Here are some things to try:
 
-Accept where you are and make some room for it.
+        (checkbox: bind $clean, &quot; Wash your face or take a shower&quot;)
+        (checkbox: bind $bed, &quot; Make your bed&quot;)
+        (checkbox: bind $water, &quot; Drink some water&quot;)
+        (checkbox: bind $coffee, &quot; Have some coffee&quot;)
+        (checkbox: bind $meds, &quot; Take your meds / vitamins&quot;)
+        (checkbox: bind $todo, &quot; Make a to-do list&quot;)
+        (checkbox: bind $clothes, &quot; Get dressed&quot;)
+        (checkbox: bind $setup, &quot; Set yourself up for the day&quot;)
 
-Slowing down to take care of yourself makes everything else happen faster.
+        This is just a starting point; you can make your own checklist as elaborate as you want! [[Click here|apps]] to check out some app recommendations. ■</tw-passagedata>
+        <tw-passagedata pid="4" name="Main Menu" tags="" position="550,0" size="100,100">
+        ###Hello there  :)
+        ---
 
-(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;=XXXXXXXXXXXXXXXXXX=&quot;)[^^//(Tap anywhere to continue.)//^^]
+        This is MindfulScroll, an alternative to compulsive scrolling during the day&#39;s transitions.
 
+        &#39;&#39;So, tell me what&#39;s going on.&#39;&#39;
 
-(after: 1ms)[(click-goto: ?Page, &quot;funk_nav&quot;)]</tw-passagedata><tw-passagedata pid="7" name="winddown1" tags="night" position="1000,525" size="100,100">####Tell your body it’s time for bed.
----
+        [[I just woke up|morning-intro]]
+        [[I&#39;m in a funk|self-care-intro]]
+        [[I&#39;m winding down for the evening|winddown-intro]]
+        [[I&#39;m about to go to sleep|sleep-intro]]
 
-Communicate with your wise nervous system through your senses. 
+        (link: &quot;^^//Fullscreen View Instructions//^^&quot;)[(alert:&quot;[^^&#39;&#39;Safari (iOS):&#39;&#39;
+        Share sheet --&gt;&#39;Add to homescreen&#39;
 
-$d8n[=Turn off some room lights. 
+        &#39;&#39;Chrome (Android):&#39;&#39; 
+        Tap the &#39;Add MindfulScroll to Home screen&#39; prompt
+        ^^]&quot;)]
+        </tw-passagedata>
+        <tw-passagedata pid="5" name="Footer" tags="footer" position="699,0" size="100,100">
 
-$d8n[=Dim or put away bright screens. 
-[[Check out more nighttime phone settings.|phone]]
+        ---
+        (align:&quot;=&gt;&lt;=&quot;)+(box:&quot;=XXXXXXXXXXXX=&quot;)+(text-style:&quot;subscript&quot;)[[[Main Menu]] | [[Help+Extras]]
+        © Julia Bushue]</tw-passagedata>
+        <tw-passagedata pid="6" name="self-care-intro" tags="Self-Care" position="550,150" size="100,100">//&#39;&#39;I feel stuck.  
 
-$d8n[=Change into soft, comfortable clothes.⠀»
+        I can&#39;t focus or organize my thoughts.  
 
+        I&#39;m in a funk.&#39;&#39;//
+        ---
+        It&#39;s okay. You&#39;ve got this. 
 
-(after: 1ms)[(click-goto: ?Page, &quot;winddown2&quot;)]
+        Just take it one step at a time.
 
-</tw-passagedata><tw-passagedata pid="8" name="sleep1" tags="night" position="1150,525" size="100,100">####Let this be the last thing you read before bed.
----
-Today was busy, full of thoughts, ideas, and activity.
+        ---
+        ####Stop.
 
-$d8n[=Now it’s time to slow down and prepare your mind and body for rest.
+        Accept where you are and make some room for it.
 
-$d8n[=&#39;&#39;First, focus on your heart. &#39;&#39;
+        Slowing down to take care of yourself makes everything else happen faster.
 
-$d8n[=Imagine that you can breathe directly in and out of your heart.  »
+        (align:&quot;=&gt;&lt;=&quot;)+(box:&quot;=XXXXXXXXXXXXXXXXXX=&quot;)[^^//(Tap anywhere to continue.)//^^]
 
-(after: 1ms)[(click-goto: ?Page, &quot;sleep2&quot;)]
 
-</tw-passagedata><tw-passagedata pid="9" name="winddown3" tags="night" position="1000,775" size="100,100">####Call your energy back.
----
-As you sit and enjoy your tea, music, and cuddles:
+        (after: 1ms)[(click-goto: ?Page, &quot;funk_nav&quot;)]</tw-passagedata>
+        <tw-passagedata pid="7" name="winddown1" tags="night" position="1000,525" size="100,100">####Tell your body it’s time for bed.
+        ---
 
-$d8n[=Think about the energy you’ve sent out into the world today: 
-$d8n[=the thoughts, wishes, conversations, and ideas. 
+        Communicate with your wise nervous system through your senses. 
 
-$d8n[=Imagine reversing the flow. 
+        $d8n[=Turn off some room lights. 
 
-$d8n[=Sense your energy coming back to you, 
-$d8n[=returning home.  »
+        $d8n[=Dim or put away bright screens. 
+        [[Check out more nighttime phone settings.|phone]]
 
-(after: 1ms)[(click-goto: ?Page, &quot;winddown4&quot;)]
+        $d8n[=Change into soft, comfortable clothes. »
 
-</tw-passagedata><tw-passagedata pid="10" name="physical" tags="Self-Care" position="550,775" size="100,100">####Check in with your body. 
----
-Are you:
-* Hungry?
-* Thirsty?
-* Cold?
-* Hot?
-* In pain?
-* In need of a bio break?⠀»
 
-(click-goto: ?Page, &quot;physical2&quot;)
+        (after: 1ms)[(click-goto: ?Page, &quot;winddown2&quot;)]
 
-</tw-passagedata><tw-passagedata pid="11" name="SCM" tags="Self-Care" position="550,1025" size="100,100">####Self-Care Menu
+        </tw-passagedata>
+        <tw-passagedata pid="8" name="sleep1" tags="night" position="1150,525" size="100,100">####Let this be the last thing you read before bed.
+        ---
+        Today was busy, full of thoughts, ideas, and activity.
 
-&#39;&#39;Which of these best describes how you&#39;re feeling?&#39;&#39;
+        $d8n[=Now it’s time to slow down and prepare your mind and body for rest.
 
-[[I feel okay, but I can&#39;t get started on stuff.|ExD]]
+        $d8n[=&#39;&#39;First, focus on your heart. &#39;&#39;
 
-[[I should do stuff, but I literally can&#39;t get off the couch.|couch]]
+        $d8n[=Imagine that you can breathe directly in and out of your heart.  »
 
-[[I&#39;ve got a lot of nervous energy that makes it hard to focus.|nervous]]
+        (after: 1ms)[(click-goto: ?Page, &quot;sleep2&quot;)]
 
-[[Everything feels too loud, bright, or overwhelming.|overstim]] 
+        </tw-passagedata>
+        <tw-passagedata pid="9" name="winddown3" tags="night" position="1000,775" size="100,100">####Call your energy back.
+        ---
+        As you sit and enjoy your tea, music, and cuddles:
 
-I feel numb but wired. //(coming soon)//</tw-passagedata><tw-passagedata pid="12" name="couch" tags="Self-Care" position="375,1150" size="100,100">&#39;&#39;I&#39;ll say it again:&#39;&#39;
+        $d8n[=Think about the energy you’ve sent out into the world today: 
+        $d8n[=the thoughts, wishes, conversations, and ideas. 
 
-It&#39;s okay that you feel this way. It won&#39;t last forever.
+        $d8n[=Imagine reversing the flow. 
 
-$d8n[=First off: If you don&#39;t *need* to get up, can you just give yourself a break? 
+        $d8n[=Sense your energy coming back to you, 
+        $d8n[=returning home.  »
 
-$d8n[=Hey, it&#39;s worth asking.
+        (after: 1ms)[(click-goto: ?Page, &quot;winddown4&quot;)]
 
-$d8n[=The next few screens have some bite-sized tips.
+        </tw-passagedata>
+        <tw-passagedata pid="10" name="physical" tags="Self-Care" position="550,775" size="100,100">####Check in with your body. 
+        ---
+        Are you:
+        * Hungry?
+        * Thirsty?
+        * Cold?
+        * Hot?
+        * In pain?
+        * In need of a bio break? »
 
-$d8n[=If one feels too big or hard, move on to the next one.⠀»
+        (click-goto: ?Page, &quot;physical2&quot;)
 
+        </tw-passagedata>
+        <tw-passagedata pid="11" name="SCM" tags="Self-Care" position="550,1025" size="100,100">####Self-Care Menu
 
-(after: 1ms)[(click-goto: ?Page, &quot;couch2&quot;)]
+        &#39;&#39;Which of these best describes how you&#39;re feeling?&#39;&#39;
 
-</tw-passagedata><tw-passagedata pid="13" name="nervous" tags="Self-Care" position="675,1150" size="100,100">####My body is full of nervous energy.
----
+        [[I feel okay, but I can&#39;t get started on stuff.|ExD]]
 
-Find a way to move that energy! 
+        [[I should do stuff, but I literally can&#39;t get off the couch.|couch]]
 
-If one idea doesn&#39;t work for you, move onto the next one.
----
+        [[I&#39;ve got a lot of nervous energy that makes it hard to focus.|nervous]]
 
-Have a fast-paced one-song dance party.⠀»
+        [[Everything feels too loud, bright, or overwhelming.|overstim]] 
 
+        </tw-passagedata>
+        <tw-passagedata pid="12" name="couch" tags="Self-Care" position="375,1150" size="100,100">&#39;&#39;I&#39;ll say it again:&#39;&#39;
 
-(after: 1ms)[(click-goto: ?Page, &quot;nervous2&quot;)]
+        It&#39;s okay that you feel this way. It won&#39;t last forever.
 
-</tw-passagedata><tw-passagedata pid="14" name="ExD" tags="Self-Care" position="825,1150" size="100,100">
-If you feel frozen, like you can&#39;t get off the couch, start [[here|couch]].
+        $d8n[=First off: If you don&#39;t *need* to get up this minute, can you just give yourself a break? 
 
----
-First: see if you have any insight about why you&#39;re not taking action. 
+        $d8n[=Hey, it&#39;s worth asking.
 
-Not doing the thing can happen for a lot of reasons.
+        $d8n[=The next few screens have some bite-sized tips.
 
-Be gentle and curious.⠀»
+        $d8n[=If one feels too big or hard, move on to the next one. »
 
 
-(after: 1ms)[(click-goto: ?Page, &quot;ExD2&quot;)]
+        (after: 1ms)[(click-goto: ?Page, &quot;couch2&quot;)]
 
-</tw-passagedata><tw-passagedata pid="15" name="overstim" tags="Self-Care" position="525,1150" size="100,100">####I feel completely overstimulated and overwhelmed.
+        </tw-passagedata>
+        <tw-passagedata pid="13" name="nervous" tags="Self-Care" position="675,1150" size="100,100">####My body is full of nervous energy.
+        ---
 
-Does everything feel too loud, too bright, too much?
----
+        Find a way to move that energy! 
 
-$d8n[=&#39;&#39;Listen:&#39;&#39;
+        If one idea doesn&#39;t work for you, move onto the next one.
+        ---
 
-You need alone time to recuperate. 
+        Have a fast-paced one-song dance party. »
 
-Get it as soon as possible.⠀»
 
+        (after: 1ms)[(click-goto: ?Page, &quot;nervous2&quot;)]
 
-(after: 1ms)[(click-goto: ?Page, &quot;overstim2&quot;)]
+        </tw-passagedata>
+        <tw-passagedata pid="14" name="ExD" tags="Self-Care" position="825,1150" size="100,100">
+        If you feel frozen, like you can&#39;t get off the couch, start [[here|couch]].
 
-</tw-passagedata><tw-passagedata pid="16" name="ExD6" tags="Self-Care" position="825,1775" size="100,100">&#39;&#39;Put on some upbeat music.&#39;&#39;
+        ---
+        First: see if you have any insight about why you&#39;re not taking action. 
 
-$d8n[=Go for instrumental if it&#39;s something you need to use your verbal brain for (like writing).
+        Not doing the thing can happen for a lot of reasons.
 
-$d8n[=Music with vocals or podcasts are great if it&#39;s something more physical.
+        Be gentle and curious. »
 
-$d8n[=Check out the [[playlists]] page for suggestions.⠀»
 
+        (after: 1ms)[(click-goto: ?Page, &quot;ExD2&quot;)]
 
-(after: 1ms)[(click-goto: ?Page, &quot;ExD7&quot;)]
+        </tw-passagedata>
+        <tw-passagedata pid="15" name="overstim" tags="Self-Care" position="525,1150" size="100,100">####I feel completely overstimulated and overwhelmed.
 
-</tw-passagedata><tw-passagedata pid="17" name="ExD7" tags="Self-Care" position="825,1900" size="100,100">&#39;&#39;Clean, organize, or pick up your space for 15 minutes.&#39;&#39;
+        Does everything feel too loud, too bright, too much?
+        ---
 
-$d8n[=Set a timer and put on some upbeat music.
+        $d8n[=&#39;&#39;Listen:&#39;&#39;
 
-$d8n[=It will get your brain and body moving and you&#39;ll feel calmer and more put together when your space is less cluttered.⠀»
+        You need to cut out as many sources of stimulation as possible.
 
+        Ideally, take some alone time to recuperate. »
 
-(after: 1ms)[(click-goto: ?Page, &quot;ExD8&quot;)]
 
-</tw-passagedata><tw-passagedata pid="18" name="ExD4" tags="Self-Care" position="825,1525" size="100,100">####Overcoming Starting Friction
----
-The following screens each have a tip for getting started on the thing.
+        (after: 1ms)[(click-goto: ?Page, &quot;overstim2&quot;)]
 
-$d8n[=As much as you might want to read through all of them right away, it&#39;s more important to try one or two first. 
+        </tw-passagedata>
+        <tw-passagedata pid="16" name="ExD6" tags="Self-Care" position="825,1775" size="100,100">&#39;&#39;Put on some upbeat music.&#39;&#39;
 
-$d8n[=Our brains get overwhelmed by too many options. 
+        $d8n[=Go for instrumental if it&#39;s something you need to use your verbal brain for (like writing).
 
-$d8n[=That&#39;s why you&#39;re getting these in little bite-sized chunks.⠀» 
+        $d8n[=Music with vocals or podcasts are great if it&#39;s something more physical.
 
+        $d8n[=Check out the [[playlists]] page for suggestions. »
 
-(after: 1ms)[(click-goto: ?Page, &quot;ExD5&quot;)]
-</tw-passagedata><tw-passagedata pid="19" name="Help + Extras" tags="" position="700,150" size="100,100">
-####Help + Extras
----
-[[About MindfulScroll|About]]
 
-[[Add MindfulScroll to Your Home Screen]] 
+        (after: 1ms)[(click-goto: ?Page, &quot;ExD7&quot;)]
 
-[[FAQ]]
+        </tw-passagedata>
+        <tw-passagedata pid="17" name="ExD7" tags="Self-Care" position="825,1900" size="100,100">&#39;&#39;Clean, organize, or pick up your space for 15 minutes.&#39;&#39;
 
-[[Extras]]
-* This section contains recommended apps, nighttime phone settings, playlists, and helpful links for further reading and resources.
-####Contact
+        $d8n[=Set a timer and put on some upbeat music.
 
-For questions, comments, suggestions or bug reports, email me at julia@juliabushue.
+        $d8n[=It will get your brain and body moving and you&#39;ll feel calmer and more put together when your space is less cluttered. »
 
----
-###Disclaimer
 
-This app is not intended to replace professional health advice. If you have any questions about whether a suggestion is appropriate for you, ask your health provider. 
+        (after: 1ms)[(click-goto: ?Page, &quot;ExD8&quot;)]
 
-Links to external websites not maintained by me shouldn&#39;t be taken to  represent my views or as endorsement. (just in case goodnewsnetwork.org gets hacked by Nazis someday...)
+        </tw-passagedata>
+        <tw-passagedata pid="18" name="ExD4" tags="Self-Care" position="825,1525" size="100,100">####Overcoming Starting Friction
+        ---
+        The following screens each have a tip for getting started on the thing.
 
-</tw-passagedata><tw-passagedata pid="20" name="Extras" tags="" position="850,275" size="100,100">###More
----
-(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;=XXXXXXXXXXXXXXXXXX=&quot;)[^^//&#39;&#39;Tap the curly back arrow at the top to return to the previous screen.&#39;&#39;//^^]
+        $d8n[=As much as you might want to read through all of them right away, it&#39;s more important to try one or two first. 
 
-[[Spotify Playlists|playlists]]
+        $d8n[=Our brains get overwhelmed by too many options. 
 
-[[Recommended Apps|apps]]
+        $d8n[=That&#39;s why you&#39;re getting these in little bite-sized chunks. » 
 
-[[Phone settings for better sleep|phone]]
 
-&lt;a href=&quot;https://www.juliabushue.com/blog/shock&quot;&gt;Read more about the fight-flight-freeze response and soothing the nervous system. (external link)&lt;/a&gt;
+        (after: 1ms)[(click-goto: ?Page, &quot;ExD5&quot;)]
+        </tw-passagedata>
+        <tw-passagedata pid="19" name="Help + Extras" tags="" position="708,112" size="100,100">
+        ####Help + Extras
+        ---
+        [[About MindfulScroll|About]]
 
-&lt;a href=&quot;https://youtu.be/UnTwiQY2hcM&quot;&gt;YouTube link to FasterEFT tapping tutorial (external link)&lt;/a&gt;
+        [[Add MindfulScroll to Your Home Screen]] 
 
+        [[FAQ]]
 
-</tw-passagedata><tw-passagedata pid="21" name="morning7" tags="morning" position="200,1150" size="100,100">&#39;&#39;As you read, become aware of your breath.&#39;&#39;
+        [[Extras]]
+        * This section contains recommended apps, nighttime phone settings, playlists, and helpful links for further reading and resources.
+        ####Contact
 
-$d8n[=Notice the sensations of breathing:
+        For questions, comments, suggestions or bug reports, email me at julia@juliabushue.
 
-$d8n[=the air moving in and out of your nostrils,
+        ---
+        ###Disclaimer
 
-$d8n[=the rise and fall of your abdomen.
+        This app is not intended to replace professional health advice. If you have any questions about whether a suggestion is appropriate for you, ask your health provider. 
 
-$d8n[=See if you can stay with your breath through the entire cycle of inhale and exhale.
+        Links to external websites not maintained by me shouldn&#39;t be taken to  represent my views or as endorsement. (just in case goodnewsnetwork.org gets hacked by Nazis someday...)
 
-$d8n[=Do this two or three times.⠀»
+        </tw-passagedata>
+        <tw-passagedata pid="20" name="Extras" tags="" position="850,275" size="100,100">###More
+        ---
+        (align:&quot;=&gt;&lt;=&quot;)+(box:&quot;=XXXXXXXXXXXXXXXXXX=&quot;)[^^//&#39;&#39;Tap the curly back arrow at the top to return to the previous screen.&#39;&#39;//^^]
 
+        [[Spotify Playlists|playlists]]
 
-(after: 1ms)[(click-goto: ?Page, &quot;morning8&quot;)]
+        [[Recommended Apps|apps]]
 
-</tw-passagedata><tw-passagedata pid="22" name="morning10" tags="morning" position="200,1525" size="100,100">&#39;&#39;Now, shift your attention to the weight of your body in bed. &#39;&#39;
+        [[Phone settings for better sleep|phone]]
 
-$d8n[=Feel all the surfaces supporting you, holding you up.
+        &lt;a href=&quot;https://www.juliabushue.com/blog/shock&quot;&gt;Read more about the fight-flight-freeze response and soothing the nervous system. (external link)&lt;/a&gt;
 
-$d8n[=Notice what&#39;s touching your body right now: maybe your pajamas, blankets, or pillow.
+        &lt;a href=&quot;https://youtu.be/UnTwiQY2hcM&quot;&gt;YouTube link to FasterEFT tapping tutorial (external link)&lt;/a&gt;
 
-$d8n[=Without moving, can you sense the boundaries of your skin?
 
-$d8n[=Where you end and the outside world begins?⠀»
+        </tw-passagedata>
+        <tw-passagedata pid="21" name="morning7" tags="morning" position="200,1150" size="100,100">&#39;&#39;As you read, become aware of your breath.&#39;&#39;
 
-(after: 1ms)[(click-goto: ?Page, &quot;morning11&quot;)]
+        $d8n[=Notice the sensations of breathing:
 
+        $d8n[=the air moving in and out of your nostrils,
 
-</tw-passagedata><tw-passagedata pid="23" name="morning16" tags="morning" position="200,2275" size="100,100">&#39;&#39;Let yourself sink deeply into the present moment.&#39;&#39;
+        $d8n[=the rise and fall of your abdomen.
 
-$d8n[=A &quot;holy moment&quot; is a moment made special by our attention.
+        $d8n[=See if you can stay with your breath through the entire cycle of inhale and exhale.
 
-$d8n[=(//Any// moment can be holy.)
+        $d8n[=Do this two or three times.⠀»
 
-$d8n[=This moment, //right now,// is holy because it&#39;s never happened before
 
-$d8n[=and it never will again.
+        (after: 1ms)[(click-goto: ?Page, &quot;morning8&quot;)]
 
-$d8n[=This is the only time you&#39;ll ever experience it.⠀»
+        </tw-passagedata>
+        <tw-passagedata pid="22" name="morning10" tags="morning" position="200,1525" size="100,100">&#39;&#39;Now, shift your attention to the weight of your body in bed. &#39;&#39;
 
+        $d8n[=Feel all the surfaces supporting you, holding you up.
 
-(after: 1ms)[(click-goto: ?Page, &quot;morning17&quot;)]
+        $d8n[=Notice what&#39;s touching your body right now: maybe your pajamas, blankets, or pillow.
 
-</tw-passagedata><tw-passagedata pid="24" name="morning19" tags="morning" position="200,2650" size="100,100">&#39;&#39;We&#39;re almost done.&#39;&#39;
+        $d8n[=Without moving, can you sense the boundaries of your skin?
 
-$d8n[=Think about a feeling or quality you&#39;d like to take into your day.
+        $d8n[=Where you end and the outside world begins?⠀»
 
-(click: ?Page)
-[(t8n:&quot;dissolve&quot;)[Maybe it&#39;s:](after: time+600ms)[=
+        (after: 1ms)[(click-goto: ?Page, &quot;morning11&quot;)]
 
-(t8n:&quot;dissolve&quot;)[⁕ Energy](after: time+750ms)[=
-(t8n:&quot;dissolve&quot;)[⁕ Focus](after: time+750ms)[=
-(t8n:&quot;dissolve&quot;)[⁕ Optimism or Anticipation](after: time+750ms)[=
-(t8n:&quot;dissolve&quot;)[⁕ Gratitude or Appreciation](after: time+750ms)[=
-(t8n:&quot;dissolve&quot;)[⁕ Loving Connection](after: time+750ms)[=
-(t8n:&quot;dissolve&quot;)[⁕ Self-Kindness](after: time+750ms)[=
-(t8n:&quot;dissolve&quot;)[⁕ Ease](after: time+750ms)[=
 
-(t8n:&quot;dissolve&quot;)[Or maybe something else comes to you.  »]
-]
+        </tw-passagedata>
+        <tw-passagedata pid="23" name="morning16" tags="morning" position="200,2275" size="100,100">&#39;&#39;Let yourself sink deeply into the present moment.&#39;&#39;
 
-(click-goto: ?Page, &quot;morning20&quot;)
+        $d8n[=A &quot;holy moment&quot; is a moment made special by our attention.
 
+        $d8n[=(//Any// moment can be holy.)
 
+        $d8n[=This moment, //right now,// is holy because it&#39;s never happened before
 
+        $d8n[=and it never will again.
 
-</tw-passagedata><tw-passagedata pid="25" name="morning23" tags="morning" position="200,3150" size="100,100">&#39;&#39;Still need something to look at while you wake up?&#39;&#39;
+        $d8n[=This is the only time you&#39;ll ever experience it.⠀»
 
-Check out &lt;a href=&quot;https://www.goodnewsnetwork.org/&quot;&gt;The Good News Network&lt;/a&gt;, a news site that shares inspiring, positive stories.
 
-If there&#39;s important bad news happening today, I promise you&#39;ll find out about it.
+        (after: 1ms)[(click-goto: ?Page, &quot;morning17&quot;)]
 
-But have some coffee first. ■
+        </tw-passagedata>
+        <tw-passagedata pid="24" name="morning19" tags="morning" position="200,2650" size="100,100">&#39;&#39;We&#39;re almost done.&#39;&#39;
 
+        $d8n[=Think about a feeling or quality you&#39;d like to take into your day.
 
-[[Fair enough, I&#39;m ready for the itty-bitty morning checklist.|morningchecklist]]</tw-passagedata><tw-passagedata pid="26" name="ExD8" tags="Self-Care" position="825,2025" size="100,100">&#39;&#39;Does everything feel equally urgent?&#39;&#39;
+        (click: ?Page)
+        [(t8n:&quot;dissolve&quot;)[Maybe it&#39;s:](after: time+600ms)[=
 
-$d8n[=Go with something simple and easy to cross off. 
+        (t8n:&quot;dissolve&quot;)[⁕ Energy](after: time+750ms)[=
+        (t8n:&quot;dissolve&quot;)[⁕ Focus](after: time+750ms)[=
+        (t8n:&quot;dissolve&quot;)[⁕ Optimism or Anticipation](after: time+750ms)[=
+        (t8n:&quot;dissolve&quot;)[⁕ Gratitude or Appreciation](after: time+750ms)[=
+        (t8n:&quot;dissolve&quot;)[⁕ Loving Connection](after: time+750ms)[=
+        (t8n:&quot;dissolve&quot;)[⁕ Self-Kindness](after: time+750ms)[=
+        (t8n:&quot;dissolve&quot;)[⁕ Ease](after: time+750ms)[=
 
-$d8n[=Then move on to something else. 
+        (t8n:&quot;dissolve&quot;)[Or maybe something else comes to you.  »]
+        ]
 
-$d8n[=If it doesn&#39;t really matter what you do, just pick //something.//
+        (click-goto: ?Page, &quot;morning20&quot;)
 
-$d8n[=Once you get moving, it&#39;s easier to keep going.⠀»
 
 
-(after: 1ms)[(click-goto: ?Page, &quot;ExD9&quot;)]
 
-</tw-passagedata><tw-passagedata pid="27" name="ExD9" tags="Self-Care" position="825,2150" size="100,100">&#39;&#39;If you have one urgent project...&#39;&#39;
+        </tw-passagedata>
+        <tw-passagedata pid="25" name="morning23" tags="morning" position="200,3150" size="100,100">&#39;&#39;Still need something to look at while you wake up?&#39;&#39;
 
-$d8n[=imagine that you can hand it off to a helpful assistant. 
+        Check out &lt;a href=&quot;https://www.goodnewsnetwork.org/&quot;&gt;The Good News Network&lt;/a&gt;, a news site that shares inspiring, positive stories.
 
-$d8n[=What would you tell them to do next?⠀»
+        If there&#39;s important bad news happening today, I promise you&#39;ll find out about it.
 
+        But have some coffee first. ■
 
-(after: 1ms)[(click-goto: ?Page, &quot;ExD10&quot;)]
 
-</tw-passagedata><tw-passagedata pid="28" name="ExD10" tags="Self-Care" position="825,2275" size="100,100">&#39;&#39;Find ways to break it up.&#39;&#39;
----
-$d8n[=&#39;&#39;By Step:&#39;&#39; do one tiny little step. 
+        [[Fair enough, I&#39;m ready for the itty-bitty morning checklist.|morningchecklist]]</tw-passagedata>
+        <tw-passagedata pid="26" name="ExD8" tags="Self-Care" position="825,2025" size="100,100">&#39;&#39;Does everything feel equally urgent?&#39;&#39;
 
-If your tiny step still feels too big, then it&#39;s not tiny enough!
+        $d8n[=Go with something simple and easy to cross off. 
 
-$d8n[=&#39;&#39;By Time:&#39;&#39; set a timer for 15-25 minutes. 
+        $d8n[=Then move on to something else. 
 
-It&#39;s often easier to keep going once you&#39;ve started.
+        $d8n[=If it doesn&#39;t really matter what you do, just pick //something.//
 
-$d8n[=&#39;&#39;Before you stop:&#39;&#39; decide what your next action will be when you come back to it.⠀»
+        $d8n[=Once you get moving, it&#39;s easier to keep going. »
 
 
-[(click-goto: ?Page, &quot;ExD11&quot;)]
+        (after: 1ms)[(click-goto: ?Page, &quot;ExD9&quot;)]
 
-</tw-passagedata><tw-passagedata pid="29" name="ExD11" tags="Self-Care" position="825,2400" size="100,100">&#39;&#39;Keep yourself company with a journal.&#39;&#39; 
+        </tw-passagedata>
+        <tw-passagedata pid="27" name="ExD9" tags="Self-Care" position="825,2150" size="100,100">&#39;&#39;If you have one urgent project...&#39;&#39;
 
-$d8n[=It&#39;s a good way to stay engaged in a gentle way without letting yourself off the hook.
+        $d8n[=imagine that you can hand it off to a helpful and capable assistant. 
 
-$d8n[=Open up a notebook or text file and start writing about what you feel or notice as you think about attempting this task.⠀»
- 
- 
-(after: 1ms)[(click-goto: ?Page, &quot;ExD12&quot;)]
+        $d8n[=What would you tell them to do next? »
 
-</tw-passagedata><tw-passagedata pid="30" name="ExD13" tags="Self-Care" position="825,2650" size="100,100">&#39;&#39;Get some help.&#39;&#39;
 
-$d8n[=&quot;Body Doubling&quot; is when someone physically hangs out with you while you do the thing.
+        (after: 1ms)[(click-goto: ?Page, &quot;ExD10&quot;)]
 
-$d8n[=It&#39;s why workout buddies are so helpful.
+        </tw-passagedata>
+        <tw-passagedata pid="28" name="ExD10" tags="Self-Care" position="825,2275" size="100,100">&#39;&#39;Find ways to break it up.&#39;&#39;
+        ---
+        $d8n[=&#39;&#39;Mental Rehearsal:&#39;&#39; if the thing feels complicated or overwhelming, mentally walk yourself through it from beginning to end. 
 
-$d8n[=Or try a virtual hangout.
+        &quot;I need to schedule a doctor appointment, so first I&#39;m going to get out my phone and look up their number. I&#39;m going to have my calendar handy so I can see my availability and my insurance card out so I can give them the info. Actually, before that I need to make some notes about my issue so that I don&#39;t forget an important detail once I&#39;m on the phone.&quot;
 
-$d8n[=Maybe you check in at the beginning and end of a period, or maybe you stay on the phone/webcam the whole time.⠀»
+        $d8n[=&#39;&#39;By Step:&#39;&#39; do one tiny little step. 
 
+        If your tiny step still feels too big, then it&#39;s not tiny enough!
 
-(after: 1ms)[(click-goto: ?Page, &quot;ExD14&quot;)]
+        $d8n[=&#39;&#39;By Time:&#39;&#39; set a timer for 15-25 minutes. 
 
-</tw-passagedata><tw-passagedata pid="31" name="ExD15" tags="Self-Care" position="825,2900" size="100,100">&#39;&#39;Are you sure?&#39;&#39; 
+        It&#39;s often easier to keep going once you&#39;ve started.
 
-$d8n[=Try a couple of these instead of cycling through all the options you *could* try. 
+        $d8n[=&#39;&#39;Before you stop:&#39;&#39; If it&#39;s too big to handle in one chunk, decide what your next action will be when you come back to it. »
 
-$d8n[=Messy progress is better than a perfect plan that never gets executed.
 
-$d8n[=I believe in you!  ■
+        [(click-goto: ?Page, &quot;ExD11&quot;)]
 
+        </tw-passagedata>
+        <tw-passagedata pid="29" name="ExD11" tags="Self-Care" position="825,2400" size="100,100">&#39;&#39;Keep yourself company with a journal.&#39;&#39; 
 
-[[Back to the Self-Care Menu|SCM]]
+        $d8n[=It&#39;s a good way to stay engaged in a gentle way without letting yourself off the hook.
 
-</tw-passagedata><tw-passagedata pid="32" name="couch3" tags="Self-Care" position="375,1400" size="100,100">Wiggle your fingers and toes. 
+        $d8n[=Open up a notebook or text file and start writing about what you feel or notice as you think about attempting this task. »
+         
+         
+        (after: 1ms)[(click-goto: ?Page, &quot;ExD12&quot;)]
 
-$d8n[=Do some neck rolls.
+        </tw-passagedata>
+        <tw-passagedata pid="30" name="ExD13" tags="Self-Care" position="825,2650" size="100,100">&#39;&#39;Get some help.&#39;&#39;
 
-$d8n[=Stretch your arms above your head. 
+        $d8n[=&quot;Body Doubling&quot; is when someone physically hangs out with you while you do the thing.
 
-$d8n[=Remember Uma Thurman in //Kill Bill?//
-&quot;Wiggle your big toe.&quot; 
+        $d8n[=It&#39;s why workout buddies are so helpful.
 
-$d8n[=Any little movement can help.⠀» 
+        $d8n[=Or try a virtual hangout.
 
+        $d8n[=Maybe you check in at the beginning and end of a period, or maybe you stay on the phone/webcam the whole time.
 
-(after: 1ms)[(click-goto: ?Page, &quot;couch4&quot;)]
+        $d8n[=Text a friend and say, &quot;I&#39;m about to do X, can I tell you when I&#39;m done?&quot; »
 
-</tw-passagedata><tw-passagedata pid="33" name="couch4" tags="Self-Care" position="375,1525" size="100,100">Have a good [[playlist|playlists]] ready for these times. 
 
-$d8n[=I don&#39;t go straight to high-energy dance music.
+        (after: 1ms)[(click-goto: ?Page, &quot;ExD14&quot;)]
 
-$d8n[=It makes me feel even more cranky and tired. 
+        </tw-passagedata>
+        <tw-passagedata pid="31" name="ExD15" tags="Self-Care" position="825,2900" size="100,100">&#39;&#39;Are you sure?&#39;&#39; 
 
-$d8n[=Find something uplifting/upbeat without sounding too frantic.⠀»
+        $d8n[=Try a couple of these instead of cycling through all the options you *could* try. 
 
+        $d8n[=Messy progress is better than a perfect plan that never gets executed.
 
-(after: 1ms)[(click-goto: ?Page, &quot;couch5&quot;)]
+        $d8n[=I believe in you!  ■
 
-</tw-passagedata><tw-passagedata pid="34" name="playlists" tags="" position="850,400" size="100,100">###Spotify Playlist Links
----
-(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;=XXXXXXXXXXXXXXXXXX=&quot;)[^^//&#39;&#39;Tap the curly back arrow at the top to return to the previous screen.&#39;&#39;//^^]
-&#39;&#39;* All links open externally. Long-press and select &quot;Open in New Tab.&quot;&#39;&#39;
 
-&lt;a href=&quot;https://open.spotify.com/playlist/7dpTkHxRXjUaRKQvm1Ts7j?si=ljMCKixlQxylgsiXzYqaZg&quot;&gt;A couple of nice wake-up tunes&lt;/a&gt;
+        [[Back to the Self-Care Menu|SCM]]
 
-&lt;a href=&quot;https://open.spotify.com/playlist/6s0r5iusZ19CjqifkomDLX?si=q8E_1dHkSfam7V1WR19ovQ&quot;&gt;Chill music for focusing&lt;/a&gt;
+        </tw-passagedata>
+        <tw-passagedata pid="32" name="couch3" tags="Self-Care" position="375,1400" size="100,100">Wiggle your fingers and toes. 
 
-&lt;a href=&quot;https://open.spotify.com/playlist/3tDad2Ng9L4zHOB3pHTYcH?si=agRU2LriTXWv8N-Qaqfbrw&quot;&gt;Music for sleeping&lt;/a&gt;
+        $d8n[=Take your eyes off this screen and focus on something across the room for 15-20 seconds.
 
-&lt;a href=&quot;https://open.spotify.com/user/asffqrc9mzkrqlttcv0k80iic/playlist/1qxMVWekRpblmTYYOnUR9o?si=T2TNJWUSRUCIxfHz4LelgQ&quot;&gt;Songs about feeling better&lt;/a&gt;
+        $d8n[=Do some neck rolls.
 
-&lt;a href=&quot;https://open.spotify.com/user/asffqrc9mzkrqlttcv0k80iic/playlist/3AMh14imiPODLp8mvMV1IC?si=mMw16zimScOlBzU8u48e5A&quot;&gt;Upbeat songs for walking or chores&lt;/a&gt;
+        $d8n[=Yawn or open your mouth wide and stick your tongue out as far as you can. 
 
+        $d8n[=Stretch your arms above your head. 
 
-Back to [[Extras]]</tw-passagedata><tw-passagedata pid="35" name="couch5" tags="Self-Care" position="375,1650" size="100,100">&#39;&#39;Feeling numb or checked out can mean your nervous system is overloaded. &#39;&#39;
+        $d8n[=Remember Uma Thurman in //Kill Bill?//
+        &quot;Wiggle your big toe.&quot; 
 
-$d8n[=It needs to feel safe before moving on to something more active. 
+        $d8n[=Any little movement can help. » 
 
-$d8n[=&#39;&#39;Connection&#39;&#39; is a good place to start.
 
-$d8n[=Can you text a friend or cuddle a pet?
-$d8n[=Even giving yourself a hug can help.
+        (after: 1ms)[(click-goto: ?Page, &quot;couch4&quot;)]
 
-$d8n[=Check out the fight-flight-freeze article in the [[Extras]] section for more self-soothing ideas.⠀»
+        </tw-passagedata>
+        <tw-passagedata pid="33" name="couch4" tags="Self-Care" position="375,1525" size="100,100">Have a good [[playlist|playlists]] ready for these times. 
 
+        $d8n[=I don&#39;t go straight to high-energy dance music.
 
-(after: 1ms)[(click-goto: ?Page, &quot;couch6&quot;)]
+        $d8n[=It makes me feel even more cranky and tired. 
 
-</tw-passagedata><tw-passagedata pid="36" name="couch6" tags="Self-Care" position="375,1775" size="100,100">&#39;&#39;Faster EFT&#39;&#39; (emotional freedom technique) is a way to shift stuck energy by tapping on different pressure points. 
+        $d8n[=Find something uplifting/upbeat without sounding too frantic. »
 
-You can  watch a [[how-to video here,|Extras]] or try this:
 
-$d8n[=Think of one of the emotions or sensations you want to shift, then let it go.
+        (after: 1ms)[(click-goto: ?Page, &quot;couch5&quot;)]
 
-$d8n[=Tap gently the top of your head with the middle and ring fingers of one hand.⠀»
+        </tw-passagedata>
+        <tw-passagedata pid="34" name="playlists" tags="" position="850,400" size="100,100">###Spotify Playlist Links
+        ---
+        (align:&quot;=&gt;&lt;=&quot;)+(box:&quot;=XXXXXXXXXXXXXXXXXX=&quot;)[^^//&#39;&#39;Tap the curly back arrow at the top to return to the previous screen.&#39;&#39;//^^]
+        &#39;&#39;* All links open externally. Long-press and select &quot;Open in New Tab.&quot;&#39;&#39;
 
+        &lt;a href=&quot;https://open.spotify.com/playlist/7dpTkHxRXjUaRKQvm1Ts7j?si=ljMCKixlQxylgsiXzYqaZg&quot;&gt;A couple of nice wake-up tunes&lt;/a&gt;
 
-(after: 1ms)[(click-goto: ?Page, &quot;couch7&quot;)]
+        &lt;a href=&quot;https://open.spotify.com/playlist/6s0r5iusZ19CjqifkomDLX?si=q8E_1dHkSfam7V1WR19ovQ&quot;&gt;Chill music for focusing&lt;/a&gt;
 
-</tw-passagedata><tw-passagedata pid="37" name="couch9" tags="Self-Care" position="375,2150" size="100,100">&#39;&#39;And remember...&#39;&#39;
+        &lt;a href=&quot;https://open.spotify.com/playlist/3tDad2Ng9L4zHOB3pHTYcH?si=agRU2LriTXWv8N-Qaqfbrw&quot;&gt;Music for sleeping&lt;/a&gt;
 
-Whatever you try, stay engaged with how you&#39;re feeling. 
+        &lt;a href=&quot;https://open.spotify.com/user/asffqrc9mzkrqlttcv0k80iic/playlist/1qxMVWekRpblmTYYOnUR9o?si=T2TNJWUSRUCIxfHz4LelgQ&quot;&gt;Songs about feeling better&lt;/a&gt;
 
-$d8n[=It&#39;s easy to just drift off into a fugue state of scrolling or sleeping. 
+        &lt;a href=&quot;https://open.spotify.com/user/asffqrc9mzkrqlttcv0k80iic/playlist/3AMh14imiPODLp8mvMV1IC?si=mMw16zimScOlBzU8u48e5A&quot;&gt;Upbeat songs for walking or chores&lt;/a&gt;
 
-$d8n[=Talk to yourself about how you&#39;re feeling, out loud or in your head. 
 
-$d8n[=Or write about what you&#39;re noticing.
+        Back to [[Extras]]</tw-passagedata>
+        <tw-passagedata pid="35" name="couch5" tags="Self-Care" position="375,1650" size="100,100">&#39;&#39;Feeling numb or checked out can mean your nervous system is overloaded. &#39;&#39;
 
-$d8n[=Remember to be nice!⠀»
+        $d8n[=It needs to feel safe before moving on to something more active. 
 
+        $d8n[=&#39;&#39;Connection&#39;&#39; is a good place to start.
 
-(after: 1ms)[(click-goto: ?Page, &quot;couch10&quot;)]
+        $d8n[=Can you text a friend or cuddle a pet?
+        $d8n[=Even giving yourself a hug can help.
 
-</tw-passagedata><tw-passagedata pid="38" name="winddown7" tags="night" position="1000,1275" size="100,100">####Practice Presence
-----
-Sit and bring your attention to the present moment, the current breath. 
+        $d8n[=Check out the fight-flight-freeze article in the [[Extras]] section for more self-soothing ideas. »
 
-$d8n[=Notice how the breath travels through the body. 
 
-$d8n[=Drop your awareness down to your heart, your abdomen. 
+        (after: 1ms)[(click-goto: ?Page, &quot;couch6&quot;)]
 
-$d8n[=It&#39;s time for the brain to relinquish control to their quiet wisdom.  » 
+        </tw-passagedata>
+        <tw-passagedata pid="36" name="couch6" tags="Self-Care" position="375,1775" size="100,100">&#39;&#39;Faster EFT&#39;&#39; (emotional freedom technique) is a way to shift stuck energy by tapping on different pressure points. 
 
-(after: 1ms)[(click-goto: ?Page, &quot;winddown8&quot;)]</tw-passagedata><tw-passagedata pid="39" name="phone" tags="" position="850,525" size="100,100">
-#####Nighttime Phone Settings for Better Sleep
----
-(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;=XXXXXXXXXXXXXXXXXX=&quot;)[^^//&#39;&#39;Tap the curly back arrow at the top to return to the previous screen.&#39;&#39;//^^]
-&#39;&#39;iPhone&#39;&#39;
+        You can  watch a [[how-to video here,|Extras]] or try this:
 
-&#39;&#39;Night Shift:&#39;&#39; makes your phone colors warmer in the evening.
+        $d8n[=Think of one of the emotions or sensations you want to shift, then let it go.
 
-//Find it here:// Settings &gt; Display &amp; Brightness
+        $d8n[=Tap gently the top of your head with the middle and ring fingers of one hand. »
 
-(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;=X=&quot;)[&#96;* * * * * *&#96;]
-&#39;&#39;Reduce White Point:&#39;&#39; makes the whites less bright and is easier on the eyes. 
 
-//Find it here:// Settings &gt; Accessibility &gt; Display &amp; Text Size &gt; Reduce White Point &gt; On &gt; adjust intensity
+        (after: 1ms)[(click-goto: ?Page, &quot;couch7&quot;)]
 
-(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;=X=&quot;)[&#96;* * * * * *&#96;]
-&#39;&#39;Color Filters:&#39;&#39; you can play around with these and see if there&#39;s a setting that feels good to your eyes. 
+        </tw-passagedata>
+        <tw-passagedata pid="37" name="couch9" tags="Self-Care" position="375,2150" size="100,100">&#39;&#39;And remember...&#39;&#39;
 
-//Find it here:// Settings &gt; Accessibility &gt; Display &amp; Text Size &gt; Color Filters &gt; On &gt; Color Tint &gt; play with intensity and hue
+        Whatever you try, stay engaged with how you&#39;re feeling. 
 
-(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;=X=&quot;)[&#96;* * * * * *&#96;]
-&#39;&#39;Accessibility Shortcut:&#39;&#39; If you click the home/power button (depending on your model) 3x, you can activate one or more of these display functions.
+        $d8n[=It&#39;s easy to just drift off into a fugue state of scrolling or sleeping. 
 
-//Find it here:// Settings &gt; Accessibility &gt; pick your setting or &quot;ask&quot; to let you pick each time
+        $d8n[=Talk to yourself about how you&#39;re feeling, out loud or in your head. 
 
-(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;=X=&quot;)[&#96;* * * * * *&#96;]
-&#39;&#39;Screen Time&#39;&#39;: schedule downtime to lock you out of certain apps before bed.
-//Find it here:// Settings &gt; Screen Time &gt; Downtime (Set apps you want to exclude in &quot;Always Allowed&quot;)
----
+        $d8n[=Or write about what you&#39;re noticing.
 
-&#39;&#39;Android&#39;&#39;
-I&#39;m not too familiar with the Android system, but if you look up any of these with &quot;Android&quot; in the search string, I bet you&#39;ll find what you&#39;re looking for!
+        $d8n[=Remember to be nice! »
 
 
-Back to [[Extras]] </tw-passagedata><tw-passagedata pid="40" name="morning4" tags="morning" position="200,775" size="100,100">&#39;&#39;Take a minute to be fully present.&#39;&#39; 
+        (after: 1ms)[(click-goto: ?Page, &quot;couch10&quot;)]
 
-$d8n[=Not rushing or dragging,
-$d8n[=but simply //here.//
+        </tw-passagedata>
+        <tw-passagedata pid="38" name="winddown7" tags="night" position="1000,1275" size="100,100">####Practice Presence
+        ----
+        Sit and bring your attention to the present moment, the current breath. 
 
-$d8n[=The way a tree or a rock or a flower is //here.//
+        $d8n[=Notice how the breath travels through the body. 
 
-$d8n[=Just for this moment, existing is enough.⠀»
+        $d8n[=Drop your awareness down to your heart, your abdomen. 
 
+        $d8n[=It&#39;s time for the brain to relinquish control to their quiet wisdom.  » 
 
-(after: 1ms)[(click-goto: ?Page, &quot;morning5&quot;)]
+        (after: 1ms)[(click-goto: ?Page, &quot;winddown8&quot;)]</tw-passagedata>
+        <tw-passagedata pid="39" name="phone" tags="" position="850,525" size="100,100">
+        #####Nighttime Phone Settings for Better Sleep
+        ---
+        (align:&quot;=&gt;&lt;=&quot;)+(box:&quot;=XXXXXXXXXXXXXXXXXX=&quot;)[^^//&#39;&#39;Tap the curly back arrow at the top to return to the previous screen.&#39;&#39;//^^]
+        &#39;&#39;iPhone&#39;&#39;
 
-</tw-passagedata><tw-passagedata pid="41" name="morning5" tags="morning" position="200,900" size="100,100">&#39;&#39;Imagine a tennis player, ready for the serve.&#39;&#39;
+        &#39;&#39;Night Shift:&#39;&#39; makes your phone colors warmer in the evening.
 
-$d8n[=See the way she balances on the balls of her feet,
+        //Find it here:// Settings &gt; Display &amp; Brightness
 
-$d8n[=loose and flexible,
+        (align:&quot;=&gt;&lt;=&quot;)+(box:&quot;=X=&quot;)[&#96;* * * * * *&#96;]
+        &#39;&#39;Reduce White Point:&#39;&#39; makes the whites less bright and is easier on the eyes. 
 
-$d8n[=prepared to move in any direction.
+        //Find it here:// Settings &gt; Accessibility &gt; Display &amp; Text Size &gt; Reduce White Point &gt; On &gt; adjust intensity
 
-$d8n[=See her total focus.⠀»
+        (align:&quot;=&gt;&lt;=&quot;)+(box:&quot;=X=&quot;)[&#96;* * * * * *&#96;]
+        &#39;&#39;Color Filters:&#39;&#39; you can play around with these and see if there&#39;s a setting that feels good to your eyes. 
 
+        //Find it here:// Settings &gt; Accessibility &gt; Display &amp; Text Size &gt; Color Filters &gt; On &gt; Color Tint &gt; play with intensity and hue
 
-(click-goto: ?Page, &quot;morning6&quot;)
+        (align:&quot;=&gt;&lt;=&quot;)+(box:&quot;=X=&quot;)[&#96;* * * * * *&#96;]
+        &#39;&#39;Accessibility Shortcut:&#39;&#39; If you click the home/power button (depending on your model) 3x, you can activate one or more of these display functions.
 
-</tw-passagedata><tw-passagedata pid="42" name="morning8" tags="morning" position="200,1275" size="100,100">&#39;&#39;Send some appreciation to your amazing body.
-&#39;&#39;
-$d8n[=Your lungs expand and contract to bring you fresh air.
+        //Find it here:// Settings &gt; Accessibility &gt; pick your setting or &quot;ask&quot; to let you pick each time
 
-$d8n[=Your heart circulates freshly-oxygenated blood through your veins.
+        (align:&quot;=&gt;&lt;=&quot;)+(box:&quot;=X=&quot;)[&#96;* * * * * *&#96;]
+        &#39;&#39;Screen Time&#39;&#39;: schedule downtime to lock you out of certain apps before bed.
+        //Find it here:// Settings &gt; Screen Time &gt; Downtime (Set apps you want to exclude in &quot;Always Allowed&quot;)
+        ---
 
-$d8n[=Your brain makes neural connections to help you read these words.⠀»
+        &#39;&#39;Android&#39;&#39;
+        I&#39;m not too familiar with the Android system, but if you look up any of these with &quot;Android&quot; in the search string, I bet you&#39;ll find what you&#39;re looking for!
 
 
-(after: 1ms)[(click-goto: ?Page, &quot;morning9&quot;)]
+        Back to [[Extras]] </tw-passagedata>
+        <tw-passagedata pid="40" name="morning4" tags="morning" position="200,775" size="100,100">&#39;&#39;Take a minute to be fully present.&#39;&#39; 
 
-</tw-passagedata><tw-passagedata pid="43" name="morning12" tags="morning" position="200,1775" size="100,100">&#39;&#39;If any part of you is uncomfortable: &#39;&#39;
+        $d8n[=Not rushing or dragging,
+        $d8n[=but simply //here.//
 
-$d8n[=Imagine sending your breath into that area.
+        $d8n[=The way a tree or a rock or a flower is //here.//
 
-$d8n[=You may want to visualize flooding that area with a soothing color, like blue or white.
+        $d8n[=Just for this moment, existing is enough.⠀»
 
-$d8n[=As you do this, gradually expand your awareness to include the rest of your body.⠀»
 
-(after: 1ms)[(click-goto: ?Page, &quot;morning13&quot;)]
+        (after: 1ms)[(click-goto: ?Page, &quot;morning5&quot;)]
 
-</tw-passagedata><tw-passagedata pid="44" name="morning14" tags="morning" position="200,2025" size="100,100">&#39;&#39;Expand your awareness past the boundaries of your skin.&#39;&#39;
+        </tw-passagedata>
+        <tw-passagedata pid="41" name="morning5" tags="morning" position="200,900" size="100,100">&#39;&#39;Imagine a tennis player, ready for the serve.&#39;&#39;
 
-$d8n[=Sense or visualize the space surrounding you:
-(click: ?Page)
-[(t8n:&quot;dissolve&quot;)[⠀Above your head,](after: time+750ms)[=
-(t8n:&quot;dissolve&quot;)[⠀⠀below your feet,](after: time+750ms)[=
-(t8n:&quot;dissolve&quot;)[⠀⠀⠀in front of you,](after: time+750ms)[=
-(t8n:&quot;dissolve&quot;)[⠀⠀⠀⠀behind you,](after: time+750ms)[=
-(t8n:&quot;dissolve&quot;)[⠀⠀⠀⠀⠀to your left,](after: time+750ms)[=
-(t8n:&quot;dissolve&quot;)[⠀⠀⠀⠀⠀⠀and to your right.⠀»]]
+        $d8n[=See the way she balances on the balls of her feet,
 
+        $d8n[=loose and flexible,
 
-(after: 1ms)[(click-goto: ?Page, &quot;morning15&quot;)]
+        $d8n[=prepared to move in any direction.
 
+        $d8n[=See her total focus.⠀»
 
 
-</tw-passagedata><tw-passagedata pid="45" name="morning17" tags="morning" position="200,2400" size="100,100">&#39;&#39;Realize how unlikely you are.&#39;&#39;
+        (click-goto: ?Page, &quot;morning6&quot;)
 
-$d8n[=Reflect on the vast chain of events and coincidences that led to you being right here,
+        </tw-passagedata>
+        <tw-passagedata pid="42" name="morning8" tags="morning" position="200,1275" size="100,100">&#39;&#39;Send some appreciation to your amazing body.
+        &#39;&#39;
+        $d8n[=Your lungs expand and contract to bring you fresh air.
 
-$d8n[=⠀⠀right now,
+        $d8n[=Your heart circulates freshly-oxygenated blood through your veins.
 
-$d8n[=⠀⠀⠀⠀reading these words.⠀»
+        $d8n[=Your brain makes neural connections to help you read these words.⠀»
 
 
-(after: 1ms)[(click-goto: ?Page, &quot;morning18&quot;)]
+        (after: 1ms)[(click-goto: ?Page, &quot;morning9&quot;)]
 
-</tw-passagedata><tw-passagedata pid="46" name="apps" tags="" position="850,650" size="100,100">###Recommended Apps
----
-(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;=XXXXXXXXXXXXXXXXXX=&quot;)[^^//&#39;&#39;Tap the curly back arrow at the top to return to the previous screen.&#39;&#39;//^^]
-//(n.b.: I&#39;m not familiar with all the Android apps available, but I&#39;m sure analogues exist for most of these.)//
+        </tw-passagedata>
+        <tw-passagedata pid="43" name="morning12" tags="morning" position="200,1775" size="100,100">&#39;&#39;If any part of you is uncomfortable: &#39;&#39;
 
+        $d8n[=Imagine sending your breath into that area.
 
-&#39;&#39;Apps for Focusing:&#39;&#39;
-* Forest timer (or search for &quot;pomodoro&quot;)
-* MyNoise (also available as a website at mynoise.net)
-* NodeBeat (iOS generative music app)
-* focusmate.com : sets you up with a partner for a 50-minute work session.I haven&#39;t personally used it, but many fellow ADHD peeps swear by it!
+        $d8n[=You may want to visualize flooding that area with a soothing color, like blue or white.
 
-&#39;&#39;Reusable checklist:&#39;&#39;
-* Checklist - Perfect checklist
+        $d8n[=As you do this, gradually expand your awareness to include the rest of your body.⠀»
 
+        (after: 1ms)[(click-goto: ?Page, &quot;morning13&quot;)]
 
-back to [[Extras]] </tw-passagedata><tw-passagedata pid="47" name="morning20" tags="morning" position="200,2775" size="100,100">&#39;&#39;Pick up your glass of water.&#39;&#39;
+        </tw-passagedata>
+        <tw-passagedata pid="44" name="morning14" tags="morning" position="200,2025" size="100,100">&#39;&#39;Expand your awareness past the boundaries of your skin.&#39;&#39;
 
-$d8n[=What color does your quality remind you of?
+        $d8n[=Sense or visualize the space surrounding you:
+        (click: ?Page)
+        [(t8n:&quot;dissolve&quot;)[⠀Above your head,](after: time+750ms)[=
+        (t8n:&quot;dissolve&quot;)[⠀⠀below your feet,](after: time+750ms)[=
+        (t8n:&quot;dissolve&quot;)[⠀⠀⠀in front of you,](after: time+750ms)[=
+        (t8n:&quot;dissolve&quot;)[⠀⠀⠀⠀behind you,](after: time+750ms)[=
+        (t8n:&quot;dissolve&quot;)[⠀⠀⠀⠀⠀to your left,](after: time+750ms)[=
+        (t8n:&quot;dissolve&quot;)[⠀⠀⠀⠀⠀⠀and to your right.⠀»]]
 
-$d8n[=Imagine that you can infuse the water with the //pure essence// of that quality.
 
-$d8n[=Visualize the water glowing with color, brighter and brighter, as it takes on your quality&#39;s energy.⠀»
+        (after: 1ms)[(click-goto: ?Page, &quot;morning15&quot;)]
 
-(after: 1ms)[(click-goto: ?Page, &quot;morning21&quot;)]</tw-passagedata><tw-passagedata pid="48" name="init" tags="startup" position="1202,2" size="100,100">(set: $d8n to (click: ?page)+(transition:&quot;dissolve&quot;))
-</tw-passagedata><tw-passagedata pid="49" name="winddown5" tags="night" position="1000,1025" size="100,100">
-#####Put the day to bed.
----
 
-$d8n[=As you move through your space, 
-$d8n[=putting things away and turning off lights, 
 
-$d8n[=imagine your own mind becoming calm, quiet, and uncluttered. ⠀»
+        </tw-passagedata>
+        <tw-passagedata pid="45" name="morning17" tags="morning" position="200,2400" size="100,100">&#39;&#39;Realize how unlikely you are.&#39;&#39;
 
+        $d8n[=Reflect on the vast chain of events and coincidences that led to you being right here,
 
-(after: 1ms)[(click-goto: ?Page, &quot;winddown6&quot;)]
+        $d8n[=⠀⠀right now,
 
-</tw-passagedata><tw-passagedata pid="50" name="sleep4" tags="night" position="1150,900" size="100,100">&#39;&#39;Feel your body growing heavier and heavier, relaxing into the bed. &#39;&#39;
+        $d8n[=⠀⠀⠀⠀reading these words.⠀»
 
-$d8n[=Notice how good it feels to let go and be completely supported. 
 
-$d8n[=When you close your eyes to enjoy these relaxing sensations, 
+        (after: 1ms)[(click-goto: ?Page, &quot;morning18&quot;)]
 
-$d8n[=notice how hard it is to open them again. 
+        </tw-passagedata>
+        <tw-passagedata pid="46" name="apps" tags="" position="850,650" size="100,100">###Recommended Apps
+        ---
+        (align:&quot;=&gt;&lt;=&quot;)+(box:&quot;=XXXXXXXXXXXXXXXXXX=&quot;)[^^//&#39;&#39;Tap the curly back arrow at the top to return to the previous screen.&#39;&#39;//^^]
+        //(n.b.: I&#39;m not familiar with all the Android apps available, but I&#39;m sure analogues exist for most of these.)//
 
-$d8n[=How much easier it would be to keep them closed.  »
 
-(after: 1ms)[(click-goto: ?Page, &quot;sleep5&quot;)]</tw-passagedata><tw-passagedata pid="51" name="morning2" tags="morning" position="200,525" size="100,100">⁕  Turn up the brightness on your phone screen and turn on your bedside light. 
-$d8n[=
-⁕  Put on some good wake-up music. (Have a song or [[playlist|playlists]] ready.)
-$d8n[=
-⁕  Sit up in bed with your back supported.
-$d8n[=
-⁕  Have some water nearby and sip as you continue.⠀»
+        &#39;&#39;Apps for Focusing:&#39;&#39;
+        * Forest timer (or search for &quot;pomodoro&quot;)
+        * MyNoise (also available as a website at mynoise.net)
+        * NodeBeat (iOS generative music app)
+        * focusmate.com : sets you up with a partner for a 50-minute work session.I haven&#39;t personally used it, but many fellow ADHD peeps swear by it!
 
+        &#39;&#39;Reusable checklist:&#39;&#39;
+        * Checklist - Perfect checklist
 
-(after: 1ms)[(click-goto: ?Page, &quot;morning3&quot;)]
 
-</tw-passagedata><tw-passagedata pid="52" name="morning6" tags="morning" position="200,1025" size="100,100">Imagine what it would be like to go through the day like that:
+        back to [[Extras]] </tw-passagedata>
+        <tw-passagedata pid="47" name="morning20" tags="morning" position="200,2775" size="100,100">&#39;&#39;Pick up your glass of water.&#39;&#39;
 
-$d8n[=fully present,
+        $d8n[=What color does your quality remind you of?
 
-$d8n[=ready to respond with agility to any challenge.⠀»
+        $d8n[=Imagine that you can infuse the water with the //pure essence// of that quality.
 
+        $d8n[=Visualize the water glowing with color, brighter and brighter, as it takes on your quality&#39;s energy.⠀»
 
-(after: 1ms)[(click-goto: ?Page, &quot;morning7&quot;)]
+        (after: 1ms)[(click-goto: ?Page, &quot;morning21&quot;)]</tw-passagedata>
+        <tw-passagedata pid="48" name="init" tags="startup" position="1202,2" size="100,100">(set: $d8n to (click: ?page)+(transition:&quot;dissolve&quot;))
+        </tw-passagedata>
+        <tw-passagedata pid="49" name="winddown5" tags="night" position="1000,1025" size="100,100">
+        ####Put the day to bed.
+        ---
 
+        $d8n[=As you move through your space, 
+        $d8n[=putting things away and turning off lights, 
 
+        $d8n[=imagine your own mind becoming calm, quiet, and uncluttered. »
 
-</tw-passagedata><tw-passagedata pid="53" name="morning9" tags="morning" position="200,1400" size="100,100">Your nervous system regulates the flow of brain chemicals and hormones, preparing you for the day ahead.
 
-$d8n[=You don&#39;t have to do //anything//.
+        (after: 1ms)[(click-goto: ?Page, &quot;winddown6&quot;)]
 
-$d8n[=It&#39;s happening all on its own.
+        </tw-passagedata>
+        <tw-passagedata pid="50" name="sleep4" tags="night" position="1150,900" size="100,100">&#39;&#39;Feel your body growing heavier and heavier, relaxing into the bed. &#39;&#39;
 
-$d8n[=Isn&#39;t that amazing?⠀»
+        $d8n[=Notice how good it feels to let go and be completely supported. 
 
+        $d8n[=When you close your eyes to enjoy these relaxing sensations, 
 
-(after: 1ms)[(click-goto: ?Page, &quot;morning10&quot;)]
+        $d8n[=notice how hard it is to open them again. 
 
-</tw-passagedata><tw-passagedata pid="54" name="morning11" tags="morning" position="200,1650" size="100,100">
-[=[[Click here if you&#39;re feeling any pain or discomfort.|morning12]]
+        $d8n[=How much easier it would be to keep them closed.  »
 
+        (after: 1ms)[(click-goto: ?Page, &quot;sleep5&quot;)]</tw-passagedata>
+        <tw-passagedata pid="51" name="morning2" tags="morning" position="200,525" size="100,100">⁕  Turn up the brightness on your phone screen and turn on your bedside light. 
+        $d8n[=
+        ⁕  Put on some good wake-up music. (Have a song or [[playlist|playlists]] ready.)
+        $d8n[=
+        ⁕  Sit up in bed with your back supported.
+        $d8n[=
+        ⁕  Have some water nearby and sip as you continue.⠀»
 
-[[or continue &gt;&gt;|morning14]]</tw-passagedata><tw-passagedata pid="55" name="morning13" tags="morning" position="200,1900" size="100,100">Notice that there are also parts that feel comfortable and at ease.
 
-$d8n[=Both pain and comfort can exist simultaneously.
+        (after: 1ms)[(click-goto: ?Page, &quot;morning3&quot;)]
 
-$d8n[=You can feel many things at once.
+        </tw-passagedata>
+        <tw-passagedata pid="52" name="morning6" tags="morning" position="200,1025" size="100,100">Imagine what it would be like to go through the day like that:
 
-$d8n[=Your experience is complex and contains multitudes.⠀»
+        $d8n[=fully present,
 
+        $d8n[=ready to respond with agility to any challenge.⠀»
 
-(after: 1ms)[(click-goto: ?Page, &quot;morning14&quot;)]
 
-</tw-passagedata><tw-passagedata pid="56" name="morning15" tags="morning" position="200,2150" size="100,100">Breathe into this egg-shaped empty space.
+        (after: 1ms)[(click-goto: ?Page, &quot;morning7&quot;)]
 
-$d8n[=Imagine you can fill this cocoon with the essence of //you//.
 
-$d8n[=Notice what happens in your body as you do this.
 
-$d8n[=If you want, imagine filling this space up with a color.
+        </tw-passagedata>
+        <tw-passagedata pid="53" name="morning9" tags="morning" position="200,1400" size="100,100">Your nervous system regulates the flow of brain chemicals and hormones, preparing you for the day ahead.
 
-$d8n[=What color would feel soothing or energizing to be surrounded by this morning?⠀»
+        $d8n[=You don&#39;t have to do //anything//.
 
+        $d8n[=It&#39;s happening all on its own.
 
-(after: 1ms)[(click-goto: ?Page, &quot;morning16&quot;)]
+        $d8n[=Isn&#39;t that amazing?⠀»
 
-</tw-passagedata><tw-passagedata pid="57" name="morning18" tags="morning" position="200,2525" size="100,100">Resolve, determination, creativity, and resilience are coded into your DNA. 
 
-$d8n[=They are the gifts of the ancestors who came before you.
+        (after: 1ms)[(click-goto: ?Page, &quot;morning10&quot;)]
 
-$d8n[=You have a million stories in your genes and a new chapter is starting
+        </tw-passagedata>
+        <tw-passagedata pid="54" name="morning11" tags="morning" position="200,1650" size="100,100">
+        [=[[Click here if you&#39;re feeling any pain or discomfort.|morning12]]
 
-$d8n[=⠀⠀right
 
-$d8n[=⠀⠀⠀⠀now.⠀»
+        [[or continue &gt;&gt;|morning14]]</tw-passagedata>
+        <tw-passagedata pid="55" name="morning13" tags="morning" position="200,1900" size="100,100">Notice that there are also parts that feel comfortable and at ease.
 
+        $d8n[=Both pain and comfort can exist simultaneously.
 
-(after: 1ms)[(click-goto: ?Page, &quot;morning19&quot;)]
+        $d8n[=You can feel many things at once.
 
-</tw-passagedata><tw-passagedata pid="58" name="morning21" tags="morning" position="200,2900" size="100,100">Now drink some down and feel its power circulating through your whole body,
+        $d8n[=Your experience is complex and contains multitudes.⠀»
 
-$d8n[=from the top of your head
-$d8n[=out to the tips of your fingers and toes.
 
-$d8n[=Imagine it washing away anything dusty,worn-out, or tired, leaving cool refreshment in its wake.
+        (after: 1ms)[(click-goto: ?Page, &quot;morning14&quot;)]
 
-$d8n[=Feel it filling your body with vitality, ease, and flow. Pause for a moment to savor this feeling.⠀»
+        </tw-passagedata>
+        <tw-passagedata pid="56" name="morning15" tags="morning" position="200,2150" size="100,100">Breathe into this egg-shaped empty space.
 
+        $d8n[=Imagine you can fill this cocoon with the essence of //you//.
 
-(after: 1ms)[(click-goto: ?Page, &quot;morning22&quot;)]
+        $d8n[=Notice what happens in your body as you do this.
 
-</tw-passagedata><tw-passagedata pid="59" name="morning22" tags="morning" position="200,3025" size="100,100">&#39;&#39;Okay, miracle human, it&#39;s time.&#39;&#39;(after: time+1s)[
+        $d8n[=If you want, imagine filling this space up with a color.
 
+        $d8n[=What color would feel soothing or energizing to be surrounded by this morning?⠀»
 
-(t8n:&quot;dissolve&quot;)[Let&#39;s get up and make some magic.⠀»]]
 
+        (after: 1ms)[(click-goto: ?Page, &quot;morning16&quot;)]
 
-$d8n[=[[&gt; Wait! I&#39;m not quite ready to get up yet.|morning23]]
+        </tw-passagedata>
+        <tw-passagedata pid="57" name="morning18" tags="morning" position="200,2525" size="100,100">Resolve, determination, creativity, and resilience are coded into your DNA. 
 
-[[&gt; Show me some tiny morning steps.|morningchecklist]]
+        $d8n[=They are the gifts of the ancestors who came before you.
 
-</tw-passagedata><tw-passagedata pid="60" name="winddown4" tags="night" position="1000,900" size="100,100">Reflect on all the images and sensations you&#39;ve experienced today. 
+        $d8n[=You have a million stories in your genes and a new chapter is starting
 
-$d8n[=Release them back into the stream. 
+        $d8n[=⠀⠀right
 
-$d8n[=Imagine your mind as a clenched fist.
+        $d8n[=⠀⠀⠀⠀now.⠀»
 
-$d8n[=Visualize it opening and loosening its grip on the day, 
-$d8n[=releasing what you no longer need.⠀»
 
+        (after: 1ms)[(click-goto: ?Page, &quot;morning19&quot;)]
 
-(after: 1ms)[(click-goto: ?Page, &quot;winddown5&quot;)]
- 
+        </tw-passagedata>
+        <tw-passagedata pid="58" name="morning21" tags="morning" position="200,2900" size="100,100">Now drink some down and feel its power circulating through your whole body,
 
-</tw-passagedata><tw-passagedata pid="61" name="winddown8" tags="night" position="1000,1400" size="100,100">Let the breath soften any areas of tension.  
+        $d8n[=from the top of your head
+        $d8n[=out to the tips of your fingers and toes.
 
-$d8n[=Let your body exist exactly as it is. 
+        $d8n[=Imagine it washing away anything dusty,worn-out, or tired, leaving cool refreshment in its wake.
 
-$d8n[=As you breathe, become aware of the empty space between you and any objects in the room. 
+        $d8n[=Feel it filling your body with vitality, ease, and flow. Pause for a moment to savor this feeling.⠀»
 
-$d8n[=Gently bring awareness to the space surrounding you.  »
 
+        (after: 1ms)[(click-goto: ?Page, &quot;morning22&quot;)]
 
-(after: 1ms)[(click-goto: ?Page, &quot;winddown9&quot;)]
+        </tw-passagedata>
+        <tw-passagedata pid="59" name="morning22" tags="morning" position="200,3025" size="100,100">&#39;&#39;Okay, miracle human, it&#39;s time.&#39;&#39;(after: time+1s)[
 
-</tw-passagedata><tw-passagedata pid="62" name="winddown9" tags="night" position="1000,1525" size="100,100">Remember that you are mostly empty space, 
 
-$d8n[=a collection of particles held together by energy. 
+        (t8n:&quot;dissolve&quot;)[Let&#39;s get up and make some magic.⠀»]]
 
-$d8n[=Breathe into the spaces between your atoms. 
 
-$d8n[=Experience yourself as a swirling galaxy filled with life.  »
+        $d8n[=[[&gt; Wait! I&#39;m not quite ready to get up yet.|morning23]]
 
+        [[&gt; Show me some tiny morning steps.|morningchecklist]]
 
-(after: 1ms)[(click-goto: ?Page, &quot;winddown10&quot;)]
+        </tw-passagedata>
+        <tw-passagedata pid="60" name="winddown4" tags="night" position="1000,900" size="100,100">Reflect on all the images and sensations you&#39;ve experienced today. 
 
-</tw-passagedata><tw-passagedata pid="63" name="winddown10" tags="night" position="1000,1650" size="100,100">Of all the different possible combinations of atoms, 
+        $d8n[=Release them back into the stream. 
 
-$d8n[=some came together to create you, reading these words right now. 
+        $d8n[=Imagine your mind as a clenched fist.
 
-$d8n[=Isn’t it miraculous?⠀»
+        $d8n[=Visualize it opening and loosening its grip on the day, 
+        $d8n[=releasing what you no longer need. »
 
 
-(after: 1ms)[(click-goto: ?Page, &quot;winddown11&quot;)]
+        (after: 1ms)[(click-goto: ?Page, &quot;winddown5&quot;)]
+         
 
+        </tw-passagedata>
+        <tw-passagedata pid="61" name="winddown8" tags="night" position="1000,1400" size="100,100">Let the breath soften any areas of tension.  
 
-</tw-passagedata><tw-passagedata pid="64" name="sleep2" tags="night" position="1150,650" size="100,100">Begin to visualize the breath moving out from your heart 
-$d8n[=to your hands and feet. 
+        $d8n[=Let your body exist exactly as it is. 
 
-$d8n[=Hold your breath, heart, hands, and feet simultaneously in your awareness.
+        $d8n[=As you breathe, become aware of the empty space between you and any objects in the room. 
 
-$d8n[=Close your eyes for a moment.
+        $d8n[=Gently bring awareness to the space surrounding you.  »
 
-$d8n[=See if you can follow the breath through the whole cycle of receiving and releasing.  »
 
+        (after: 1ms)[(click-goto: ?Page, &quot;winddown9&quot;)]
 
-(after: 1ms)[(click-goto: ?Page, &quot;sleep3&quot;)]</tw-passagedata><tw-passagedata pid="65" name="sleep3" tags="night" position="1150,775" size="100,100">Breathe in and imagine the breath attaching to any tension in the body.
+        </tw-passagedata>
+        <tw-passagedata pid="62" name="winddown9" tags="night" position="1000,1525" size="100,100">Remember that you are mostly empty space, 
 
-$d8n[=Pay special attention to the face, jaw, neck, and shoulders. 
+        $d8n[=a collection of particles held together by energy. 
 
-$d8n[=Exhale slowly and allow the tension to exit the body along with the breath.  »
+        $d8n[=Breathe into the spaces between your atoms. 
 
+        $d8n[=Experience yourself as a swirling galaxy filled with life.  »
 
-(after: 1ms)[(click-goto: ?Page, &quot;sleep4&quot;)]
 
-</tw-passagedata><tw-passagedata pid="66" name="sleep5" tags="night" position="1150,1025" size="100,100">Your eyes are feeling tired and heavy now just reading this. 
+        (after: 1ms)[(click-goto: ?Page, &quot;winddown10&quot;)]
 
-$d8n[=Each blink is an effort to stay focused. 
+        </tw-passagedata>
+        <tw-passagedata pid="63" name="winddown10" tags="night" position="1000,1650" size="100,100">Of all the different possible combinations of atoms, 
 
-$d8n[=Finally, let yourself surrender to sweet fatigue. 
+        $d8n[=some came together to create you, reading these words right now. 
 
-$d8n[=Sink into the healing darkness like a warm bath.⠀»
+        $d8n[=Isn’t it miraculous? »
 
 
-(after: 1ms)[(click-goto: ?Page, &quot;sleep6&quot;)]
+        (after: 1ms)[(click-goto: ?Page, &quot;winddown11&quot;)]
 
-</tw-passagedata><tw-passagedata pid="67" name="sleep7" tags="night" position="1150,1275" size="100,100">&#39;&#39;♥ Sweet dreams ♥&#39;&#39;
 
-and don&#39;t forget to go back to the [[Main Menu|Main Menu]] so you&#39;ll be ready for your wake-up ritual tomorrow morning. □
+        </tw-passagedata>
+        <tw-passagedata pid="64" name="sleep2" tags="night" position="1150,650" size="100,100">Begin to visualize the breath moving out from your heart 
+        $d8n[=to your hands and feet. 
 
+        $d8n[=Hold your breath, heart, hands, and feet simultaneously in your awareness.
 
+        $d8n[=Close your eyes for a moment.
 
-</tw-passagedata><tw-passagedata pid="68" name="FAQ" tags="" position="700,525" size="100,100">####Frequently-Anticipated Questions
----
-How did you make MindfulScroll?
-* I used Twine, an open-source software project available at www.twinery.org.
+        $d8n[=See if you can follow the breath through the whole cycle of receiving and releasing.  »
 
-Can I adapt/remix MindfulScroll?
 
-* MindfulScroll is licensed under a GPL-3.0 license. Do not re-sell this app as-is.</tw-passagedata><tw-passagedata pid="69" name="Add MindfulScroll to Your Home Screen" tags="" position="700,400" size="100,100">
-####Add MindfulScroll to Your Home Screen
+        (after: 1ms)[(click-goto: ?Page, &quot;sleep3&quot;)]</tw-passagedata>
+        <tw-passagedata pid="65" name="sleep3" tags="night" position="1150,775" size="100,100">Breathe in and imagine the breath attaching to any tension in the body.
 
-####iOS Devices
----
-Tap the share icon in Safari and select &quot;Add to Home Screen&quot;.
+        $d8n[=Pay special attention to the face, jaw, neck, and shoulders. 
 
+        $d8n[=Exhale slowly and allow the tension to exit the body along with the breath.  »
 
-####Android Devices
----
-Open Chrome&#39;s Settings menu by tapping the three vertical dots found in the top-right corner and select the &quot;Add To Home Screen&quot; option.
 
-</tw-passagedata><tw-passagedata pid="70" name="morning_nav" tags="morning" position="200,275" size="100,100">
-&#39;&#39;Navigation Tips &#39;&#39;
-//(tap [[here|morning2]] to skip.)//
+        (after: 1ms)[(click-goto: ?Page, &quot;sleep4&quot;)]
 
-Tap anywhere to reveal additional text. Try it now.
+        </tw-passagedata>
+        <tw-passagedata pid="66" name="sleep5" tags="night" position="1150,1025" size="100,100">Your eyes are feeling tired and heavy now just reading this. 
 
-$d8n[=The last text on each page ends with this symbol: »
+        $d8n[=Each blink is an effort to stay focused. 
 
-Tap anywhere to progress to the next page. »
+        $d8n[=Finally, let yourself surrender to sweet fatigue. 
 
+        $d8n[=Sink into the healing darkness like a warm bath. »
 
-(after: 1ms)[(click-goto: ?Page, &quot;morning_nav2&quot;)]
 
-</tw-passagedata><tw-passagedata pid="71" name="funk_nav" tags="Self-Care" position="550,275" size="100,100">
-&#39;&#39;Navigation Tips &#39;&#39;
-//(tap [[here|funk3]] to skip.)//
+        (after: 1ms)[(click-goto: ?Page, &quot;sleep6&quot;)]
 
-Tap anywhere to reveal additional text. Try it now.
+        </tw-passagedata>
+        <tw-passagedata pid="67" name="sleep7" tags="night" position="1150,1275" size="100,100">&#39;&#39;♥ Sweet dreams ♥&#39;&#39;
 
-$d8n[=The last text on each page ends with either:
-* a link 
-* this symbol: » which means you&#39;ve reached the end of the page and can tap anywhere to progress. ⠀»
+        and don&#39;t forget to go back to the [[Main Menu|Main Menu]] so you&#39;ll be ready for your wake-up ritual tomorrow morning. □
 
 
-(after: 1ms)[(click-goto: ?Page, &quot;funk_nav2&quot;)]
 
-</tw-passagedata><tw-passagedata pid="72" name="funk3" tags="Self-Care" position="550,525" size="100,100">####Remember:
+        </tw-passagedata>
+        <tw-passagedata pid="68" name="FAQ" tags="" position="700,525" size="100,100">####Frequently-Anticipated Questions
+        ---
+        How did you make MindfulScroll?
+        * I used Twine, an open-source software project available at www.twinery.org.
 
-This is temporary.
+        Can I adapt/remix MindfulScroll?
 
-$d8n[=Turn off the &quot;struggle switch.&quot; 
+        * MindfulScroll is licensed under a GPL-3.0 license. Do not re-sell this app as-is.</tw-passagedata>
+        <tw-passagedata pid="69" name="Add MindfulScroll to Your Home Screen" tags="" position="700,400" size="100,100">
+        ####Add MindfulScroll to Your Home Screen
 
-$d8n[=In this moment, let go of the effort of trying //not// to feel whatever you&#39;re feeling.
+        ####iOS Devices
+        ---
+        Tap the share icon in Safari and select &quot;Add to Home Screen&quot;.
+        This will also create a fullscreen, offline version of the app.
 
-$d8n[=It&#39;s okay to feel this way. Really.
 
-$d8n[=You (yes, you) are tenacious and resilient.⠀»
+        ####Android Devices
+        ---
+        Click the &quot;Add MindfulScroll to Home screen&quot; prompt, or open Chrome&#39;s Settings menu by tapping the three vertical dots found in the top-right corner and select the &quot;Add To Home Screen&quot; option.
 
+        </tw-passagedata>
+        <tw-passagedata pid="70" name="morning_nav" tags="morning" position="200,275" size="100,100">
+        &#39;&#39;Navigation Tips &#39;&#39;
+        //(tap [[here|morning2]] to skip.)//
 
-(after: 1ms)[(click-goto: ?Page, &quot;funk4&quot;)]
+        Tap anywhere to reveal additional text. Try it now.
 
-</tw-passagedata><tw-passagedata pid="73" name="physical2" tags="Self-Care" position="550,900" size="100,100">&#39;&#39;Get more comfortable.&#39;&#39;
+        $d8n[=The last text on each page ends with this symbol: »
 
-Here are some ideas to try:
-* Drink some water.
-* Get under a weighted blanket if you have one.
-* Put on some comfy clothes or fuzzy socks.
-* Lie on the floor in corpse pose or child pose.
-* Get a heat or cold pack.
-$d8n[=If you&#39;re feeling jittery and can&#39;t relax, go ahead and skip to the next step.⠀»
+        Tap anywhere to progress to the next page. »
 
 
-(after: 1ms)[(click-goto: ?Page, &quot;SCM&quot;)]
+        (after: 1ms)[(click-goto: ?Page, &quot;morning_nav2&quot;)]
 
-</tw-passagedata><tw-passagedata pid="74" name="couch2" tags="Self-Care" position="375,1275" size="100,100">&#39;&#39;Let&#39;s get started.&#39;&#39;
+        </tw-passagedata>
+        <tw-passagedata pid="71" name="funk_nav" tags="Self-Care" position="550,275" size="100,100">
+        &#39;&#39;Navigation Tips &#39;&#39;
+        //(tap [[here|funk3]] to skip.)//
 
-Get up and use the bathroom or get yourself some water. 
+        Tap anywhere to reveal additional text. Try it now.
 
-$d8n[=You might be surprised at how easy it is to keep moving once you break the spell. 
+        $d8n[=The last text on each page ends with either:
+        * a link 
+        * this symbol: » which means you&#39;ve reached the end of the page and can tap anywhere to progress. »
 
-$d8n[=Tell yourself you can sit back down again afterwards.⠀»
 
+        (after: 1ms)[(click-goto: ?Page, &quot;funk_nav2&quot;)]
 
-(after: 1ms)[(click-goto: ?Page, &quot;couch3&quot;)]
+        </tw-passagedata>
+        <tw-passagedata pid="72" name="funk3" tags="Self-Care" position="550,525" size="100,100">####Remember:
 
-</tw-passagedata><tw-passagedata pid="75" name="couch7" tags="Self-Care" position="375,1900" size="100,100">As you tap, say, &#39;&#39;&quot;I release and let this go.&quot;&#39;&#39; Repeat 3-4 times.
+        This is temporary.
 
-$d8n[=Focus on the sensation of your fingertips on your head.
+        $d8n[=Turn off the &quot;struggle switch&quot; and (just for this moment) let go of the effort of trying //not// to feel whatever you&#39;re feeling.
 
-$d8n[=(You can also gently tap the center of your forehead, under one eye, or under your nose.)⠀»
+        $d8n[=It&#39;s okay to feel this way. Really.
 
+        $d8n[=You (yes, you) are tenacious and resilient. »
 
-(after: 1ms)[(click-goto: ?Page, &quot;couch8&quot;)]
 
-</tw-passagedata><tw-passagedata pid="76" name="overstim2" tags="Self-Care" position="525,1275" size="100,100">
-Take a shower or bath if you can. 
+        (after: 1ms)[(click-goto: ?Page, &quot;funk4&quot;)]
 
-(Splash cold water on your face if you can&#39;t.)
+        </tw-passagedata>
+        <tw-passagedata pid="73" name="physical2" tags="Self-Care" position="550,900" size="100,100">&#39;&#39;Get more comfortable.&#39;&#39;
 
-Use the fancy bath stuff.
+        Here are some ideas to try:
+        * Drink some water.
+        * Get under a weighted blanket if you have one.
+        * Put on some comfy clothes or fuzzy socks.
+        * Lie on the floor in corpse pose or child pose.
+        * Get a heat or cold pack.
+        * Do some gentle stretches: roll your neck or stretch your arms above your head.
+        $d8n[=If you&#39;re feeling jittery and can&#39;t relax, go ahead and skip to the next step. »
 
-Put on lotion or moisturizer.⠀»
 
-(after: 1ms)[(click-goto: ?Page, &quot;overstim3&quot;)]</tw-passagedata><tw-passagedata pid="77" name="overstim3" tags="Self-Care" position="525,1400" size="100,100">&#39;&#39;Next, gather up as many of these as you can:&#39;&#39;
+        (after: 1ms)[(click-goto: ?Page, &quot;SCM&quot;)]
 
-* Noise-cancelling/isolating headphones or earplugs
-* Weighted blanket
-* Heating pad or ice pack
-* Eye mask or a soft cloth you can drape over your eyes
-* [[Soft music|playlists]]  or [[background noise|apps]]
-* Soothing scents⠀» 
+        </tw-passagedata>
+        <tw-passagedata pid="74" name="couch2" tags="Self-Care" position="375,1275" size="100,100">&#39;&#39;Let&#39;s get started.&#39;&#39;
 
+        Get up and use the bathroom or get yourself some water. 
 
-(after: 1ms)[(click-goto: ?Page, &quot;overstim4&quot;)]
+        $d8n[=You might be surprised at how easy it is to keep moving once you break the spell. 
 
-</tw-passagedata><tw-passagedata pid="78" name="overstim5" tags="Self-Care" position="525,1650" size="100,100">&#39;&#39;Get settled in your nest with all your comforts nearby.&#39;&#39;
+        $d8n[=Tell yourself you can sit back down again afterwards (but you might not need to!). »
 
-$d8n[=Tune in to what would feel good to your senses.
 
-$d8n[=Give yourself permission to take as much time as you need.
+        (after: 1ms)[(click-goto: ?Page, &quot;couch3&quot;)]
 
-$d8n[=Treat yourself with as much gentleness as possible. 
+        </tw-passagedata>
+        <tw-passagedata pid="75" name="couch7" tags="Self-Care" position="375,1900" size="100,100">As you tap, say, &#39;&#39;&quot;I release and let this go.&quot;&#39;&#39; Repeat 3-4 times.
 
-$d8n[=The world will still be there when you get back. ■
+        $d8n[=Focus on the sensation of your fingertips on your head, //not// the emotion you want to shift.
 
+        $d8n[=(You can also gently tap the center of your forehead, under one eye, or under your nose.) »
 
-$d8n[=[[Back to the Self-Care Menu|SCM]]
 
-</tw-passagedata><tw-passagedata pid="79" name="ExD3" tags="Self-Care" position="825,1400" size="100,100">&#39;&#39;If feelings point to needs, what are you needing in this situation?&#39;&#39;
+        (after: 1ms)[(click-goto: ?Page, &quot;couch8&quot;)]
 
-$d8n[=Why is it important for you to do the thing? 
+        </tw-passagedata>
+        <tw-passagedata pid="76" name="overstim2" tags="Self-Care" position="526,1268" size="100,100">
+        Take a shower or bath if you can. 
 
-$d8n[=How does it align with your priorities or values? 
+        (Splash cold water on your face if you can&#39;t - this helps calm your nervous system.)
 
-$d8n[=Reclaim your sense of autonomy by finishing the sentence: &quot;I choose to do *X* because...&quot;
+        Use the fancy bath stuff.
 
-$d8n[=If you still feel stuck, let&#39;s keep going.⠀»
+        Put on lotion or moisturizer. »
 
+        (after: 1ms)[(click-goto: ?Page, &quot;overstim3&quot;)]</tw-passagedata>
+        <tw-passagedata pid="77" name="overstim3" tags="Self-Care" position="525,1400" size="100,100">&#39;&#39;Next, gather up as many of these as you can:&#39;&#39;
 
-(after: 1ms)[(click-goto: ?Page, &quot;ExD4&quot;)]
+        * Noise-cancelling/isolating headphones or earplugs
+        * Weighted blanket
+        * Heating pad or ice pack
+        * Eye mask or a soft cloth you can drape over your eyes
+        * [[Soft music|playlists]]  or [[background noise|apps]]
+        * Soothing scents » 
 
-</tw-passagedata><tw-passagedata pid="80" name="winddown_nav" tags="night" position="1000,275" size="100,100">
-&#39;&#39;Navigation Tips &#39;&#39;
-//(tap [[here|winddown1]] to skip.)//
 
-Tap anywhere to reveal additional text. Try it now.
+        (after: 1ms)[(click-goto: ?Page, &quot;overstim4&quot;)]
 
-$d8n[=The last text on each page ends with either:
-* a link 
-* this symbol: » which means you&#39;ve reached the end of the page and can tap anywhere to progress. »
+        </tw-passagedata>
+        <tw-passagedata pid="78" name="overstim5" tags="Self-Care" position="525,1650" size="100,100">&#39;&#39;Get settled in your nest with all your comforts nearby.&#39;&#39;
 
+        $d8n[=Tune in to what would feel good to your senses.
 
-(after: 1ms)[(click-goto: ?Page, &quot;winddown_nav2&quot;)]
+        $d8n[=Give yourself permission to take as much time as you need.
 
-</tw-passagedata><tw-passagedata pid="81" name="winddown-intro" tags="night" position="1000,150" size="100,100">###Winding Down
+        $d8n[=Treat yourself with as much gentleness as possible. 
 
-A teacher once told me,
-&quot;Enter as you wish to be in it, 
-Exit as you wish to continue.&quot;
+        $d8n[=The world will still be there when you get back. ■
 
-A slow, quiet, and gentle evening ritual will set you up for a restful night&#39;s sleep.
 
-(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;=XXXXXXXXXXXXXXXXXX=&quot;)[^^//(Tap anywhere to continue.)//^^]
+        $d8n[=[[Back to the Self-Care Menu|SCM]]
 
+        </tw-passagedata>
+        <tw-passagedata pid="79" name="ExD3" tags="Self-Care" position="825,1400" size="100,100">&#39;&#39;If feelings point to needs, what are you needing in this situation?&#39;&#39;
 
-(after: 1ms)[(click-goto: ?Page, &quot;winddown_nav&quot;)]
+        $d8n[=Why is it important for you to do the thing? 
 
-</tw-passagedata><tw-passagedata pid="82" name="sleep-intro" tags="night" position="1150,150" size="100,100">
-####Time for Sleep
+        $d8n[=How does it align with your priorities or values? 
 
-If you&#39;ve already gone through the [[wind-down ritual|winddown-intro]], you should be feeling peaceful, relaxed, and ready for bed. 
+        $d8n[=Reclaim your sense of autonomy by finishing the sentence: &quot;I choose to do *X* because...&quot;
 
-But even if you haven&#39;t, you can still put yourself in the right mindset for a good night&#39;s sleep.
+        $d8n[=If you still feel stuck, let&#39;s keep going. »
 
-(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;=XXXXXXXXXXXXXXXXXX=&quot;)[^^//(Tap anywhere to continue.)//^^]
 
+        (after: 1ms)[(click-goto: ?Page, &quot;ExD4&quot;)]
 
-(after: 1ms)[(click-goto: ?Page, &quot;sleep_nav&quot;)]
+        </tw-passagedata>
+        <tw-passagedata pid="80" name="winddown_nav" tags="night" position="1000,275" size="100,100">
+        &#39;&#39;Navigation Tips &#39;&#39;
+        //(tap [[here|winddown1]] to skip.)//
 
-</tw-passagedata><tw-passagedata pid="83" name="sleep_nav" tags="night" position="1150,275" size="100,100">
-&#39;&#39;Navigation Tips &#39;&#39;
-//(tap [[here|sleep1]] to skip.)//
+        Tap anywhere to reveal additional text. Try it now.
 
-Tap anywhere to reveal additional text. Try it now.
+        $d8n[=The last text on each page ends with either:
+        * a link 
+        * this symbol: » which means you&#39;ve reached the end of the page and can tap anywhere to progress. »
 
-$d8n[=The last text on each page ends with either:
-* a link 
-* this symbol: » which means you&#39;ve reached the end of the page and can tap anywhere to progress. » 
 
+        (after: 1ms)[(click-goto: ?Page, &quot;winddown_nav2&quot;)]
 
-(after: 1ms)[(click-goto: ?Page, &quot;sleep_nav2&quot;)]
+        </tw-passagedata>
+        <tw-passagedata pid="81" name="winddown-intro" tags="night" position="1000,150" size="100,100">###Winding Down
 
-</tw-passagedata><tw-passagedata pid="84" name="morning_nav2" tags="morning" position="200,400" size="100,100">&#39;&#39;Navigation (continued)&#39;&#39;
+        A teacher once told me,
+        &quot;Enter as you wish to be in it, 
+        Exit as you wish to continue.&quot;
 
+        A slow, quiet, and gentle evening ritual will set you up for a restful night&#39;s sleep.
 
-The last piece of text in a section ends with a square: ◾
+        (align:&quot;=&gt;&lt;=&quot;)+(box:&quot;=XXXXXXXXXXXXXXXXXX=&quot;)[^^//(Tap anywhere to continue.)//^^]
 
-Use the curly forward/back arrows at the top of the screen to go back or forward to a previous screen. (Not your browser&#39;s back button!) 
 
-Got it? Let&#39;s begin.⠀»
+        (after: 1ms)[(click-goto: ?Page, &quot;winddown_nav&quot;)]
 
-(after: 1ms)[(click-goto: ?Page, &quot;morning2&quot;)]
+        </tw-passagedata>
+        <tw-passagedata pid="82" name="sleep-intro" tags="night" position="1150,150" size="100,100">
+        ####Time for Sleep
 
-</tw-passagedata><tw-passagedata pid="85" name="funk_nav2" tags="Self-Care" position="550,400" size="100,100">&#39;&#39;Navigation (Continued)&#39;&#39;
+        If you&#39;ve already gone through the [[wind-down ritual|winddown-intro]], you should be feeling peaceful, relaxed, and ready for bed. 
 
-The last piece of text in a section ends with a square: ◾
+        But even if you haven&#39;t, you can still put yourself in the right mindset for a good night&#39;s sleep.
 
-Use the curly forward/back arrows at the top of the screen to return to a previous screen. (Not your browser&#39;s back button!) 
+        (align:&quot;=&gt;&lt;=&quot;)+(box:&quot;=XXXXXXXXXXXXXXXXXX=&quot;)[^^//(Tap anywhere to continue.)//^^]
 
-Go to the [[Main Menu]] or [[Self-Care Menu|SCM]] to pick a new scenario.
 
-Got it? Let&#39;s begin.⠀»
+        (after: 1ms)[(click-goto: ?Page, &quot;sleep_nav&quot;)]
 
+        </tw-passagedata>
+        <tw-passagedata pid="83" name="sleep_nav" tags="night" position="1150,275" size="100,100">
+        &#39;&#39;Navigation Tips &#39;&#39;
+        //(tap [[here|sleep1]] to skip.)//
 
-(after: 1ms)[(click-goto: ?Page, &quot;funk3&quot;)]
+        Tap anywhere to reveal additional text. Try it now.
 
-</tw-passagedata><tw-passagedata pid="86" name="funk4" tags="Self-Care" position="550,650" size="100,100">You&#39;ve survived 100% of your bad days so far, and that&#39;s a pretty good track record.
+        $d8n[=The last text on each page ends with either:
+        * a link 
+        * this symbol: » which means you&#39;ve reached the end of the page and can tap anywhere to progress. » 
 
-$d8n[=You are here to learn how to handle your stuff. 
 
-$d8n[=It&#39;s part of your job as a human.
+        (after: 1ms)[(click-goto: ?Page, &quot;sleep_nav2&quot;)]
 
+        </tw-passagedata>
+        <tw-passagedata pid="84" name="morning_nav2" tags="morning" position="200,400" size="100,100">&#39;&#39;Navigation (continued)&#39;&#39;
 
-$d8n[=Let&#39;s start with focusing on the physical.⠀»
 
+        The last piece of text in a section ends with a square: ◾
 
-(after: 1ms)[(click-goto: ?Page, &quot;physical&quot;)]
+        Use the curly forward/back arrows at the top of the screen to go back or forward to a previous screen. (Not your browser&#39;s back button!) 
 
-</tw-passagedata><tw-passagedata pid="87" name="couch8" tags="Self-Care" position="375,2025" size="100,100">Next, take your tapping hand and gently grasp the opposite wrist.
+        Got it? Let&#39;s begin.⠀»
 
-$d8n[=Take a deep breath, and exhale while saying something like &quot;Peace&quot; or &quot;Calm&quot; to yourself. 
+        (after: 1ms)[(click-goto: ?Page, &quot;morning2&quot;)]
 
-$d8n[=Pause and check back in to see how you feel.
+        </tw-passagedata>
+        <tw-passagedata pid="85" name="funk_nav2" tags="Self-Care" position="550,400" size="100,100">&#39;&#39;Navigation (Continued)&#39;&#39;
 
-$d8n[=You may need several rounds before you notice a difference. 
+        The last piece of text in a section ends with a square: ◾
 
-$d8n[=Give it a try, even if you&#39;re skeptical. » 
+        Use the curly forward/back arrows at the top of the screen to return to a previous screen. (Not your browser&#39;s back button!) 
 
+        Go to the [[Main Menu]] or [[Self-Care Menu|SCM]] to pick a new scenario.
 
-(after: 1ms)[(click-goto: ?Page, &quot;couch9&quot;)]
+        Got it? Let&#39;s begin.»
 
-</tw-passagedata><tw-passagedata pid="88" name="couch10" tags="Self-Care" position="375,2275" size="100,100">&#39;&#39;I can&#39;t say it enough: &#39;&#39;
 
-I&#39;ve *never* not gotten past this.
+        (after: 1ms)[(click-goto: ?Page, &quot;funk3&quot;)]
 
-$d8n[=You will too. ■
+        </tw-passagedata>
+        <tw-passagedata pid="86" name="funk4" tags="Self-Care" position="550,650" size="100,100">You&#39;ve survived 100% of your bad days so far, and that&#39;s a pretty good track record.
 
+        $d8n[=You are here to learn how to handle your stuff. 
 
-[[Back to the Self-Care Menu|SCM]]
+        $d8n[=It&#39;s part of your job as a human.
 
-</tw-passagedata><tw-passagedata pid="89" name="nervous2" tags="Self-Care" position="675,1275" size="100,100">
-Run in place or imagine that you can run as fast as possible to somewhere safe.⠀»
 
+        $d8n[=Let&#39;s start with focusing on the physical. »
 
-(after: 1ms)[(click-goto: ?Page, &quot;nervous3&quot;)]
 
-</tw-passagedata><tw-passagedata pid="90" name="nervous3" tags="Self-Care" position="675,1400" size="100,100">
-Do something physical and repetitive like yardwork, sweeping, folding laundry, washing dishes.⠀»
+        (after: 1ms)[(click-goto: ?Page, &quot;physical&quot;)]
 
+        </tw-passagedata>
+        <tw-passagedata pid="87" name="couch8" tags="Self-Care" position="375,2025" size="100,100">Next, take your tapping hand and gently grasp the opposite wrist.
 
-(after: 1ms)[(click-goto: ?Page, &quot;nervous4&quot;)]
+        $d8n[=Take a deep breath, and exhale while saying something like &quot;Peace&quot; or &quot;Calm&quot; to yourself. 
 
-</tw-passagedata><tw-passagedata pid="91" name="nervous4" tags="Self-Care" position="675,1525" size="100,100">
-Go for a run or a fast walk. Get your heartrate up and you can fool your body into thinking you&#39;re working out instead of nervous!⠀»
+        $d8n[=Pause and check back in to see how you feel.
 
+        $d8n[=You may need several rounds before you notice a difference. 
 
-(after: 1ms)[(click-goto: ?Page, &quot;nervous5&quot;)]
+        $d8n[=Give it a try, even if you&#39;re skeptical. » 
 
-</tw-passagedata><tw-passagedata pid="92" name="nervous5" tags="Self-Care" position="675,1650" size="100,100">
-Roll up a towel and thwack it against the floor. Feel the energy moving out of your body and into the floor.⠀»
 
+        (after: 1ms)[(click-goto: ?Page, &quot;couch8b&quot;)]
 
-(after: 1ms)[(click-goto: ?Page, &quot;nervous6&quot;)]
+        </tw-passagedata>
+        <tw-passagedata pid="88" name="couch10" tags="Self-Care" position="375,2275" size="100,100">&#39;&#39;I can&#39;t say it enough: &#39;&#39;
 
-</tw-passagedata><tw-passagedata pid="93" name="nervous6" tags="Self-Care" position="675,1775" size="100,100">
-Shake out your arms and legs, or look up Trauma Release Exercises on YouTube.⠀Envision the excess energy moving out of your body and into the earth. »
+        I&#39;ve *never* not gotten past this.
 
+        $d8n[=You will too. ■
 
-(after: 1ms)[(click-goto: ?Page, &quot;nervous7&quot;)]
 
-</tw-passagedata><tw-passagedata pid="94" name="nervous7" tags="Self-Care" position="675,1900" size="100,100">After you feel yourself coming back to equilibrium, check in with yourself and see what might feel good to do next.
----
-Try pausing between exercises to do some EFT or Faster EFT (tapping on pressure points) to help move that energy along.⠀[[Tap here for an introduction.|couch6]] ■
+        [[Back to the Self-Care Menu|SCM]]
 
+        </tw-passagedata>
+        <tw-passagedata pid="89" name="nervous2" tags="Self-Care" position="675,1275" size="100,100">
+        Run in place or imagine that you can run as fast as possible to somewhere safe. 
 
-[[Back to the Self-Care Menu|SCM]]
+        Or give your nervousness a (benign) mental form: maybe a swarm of bees, a hamster on a wheel, a horse running through a field, a sound, a color. Turn up the intensity of the mental construct until you feel it beginning to run out of juice. »
 
-</tw-passagedata><tw-passagedata pid="95" name="overstim4" tags="Self-Care" position="525,1525" size="100,100">
-Remove as much uncomfortable stimulation as you can. 
 
-Replace it with comforting or neutral sensations instead.⠀»
+        (after: 1ms)[(click-goto: ?Page, &quot;nervous3&quot;)]
 
+        </tw-passagedata>
+        <tw-passagedata pid="90" name="nervous3" tags="Self-Care" position="675,1400" size="100,100">
+        Do something physical and repetitive like yardwork, sweeping, folding laundry, washing dishes. »
 
-(click-goto: ?Page, &quot;overstim5&quot;)
 
-</tw-passagedata><tw-passagedata pid="96" name="ExD2" tags="Self-Care" position="825,1275" size="100,100">&#39;&#39;Do you feel:&#39;&#39;
-* confused, spacey, or unfocused?
-* resentful of having to do the thing?
-* afraid of the thing not turning out perfectly?
-* embarrassed because you&#39;ve put it off so long already?
-* like you can&#39;t move forward because something else needs to happen first?
-* or something else?⠀»
+        (after: 1ms)[(click-goto: ?Page, &quot;nervous4&quot;)]
 
+        </tw-passagedata>
+        <tw-passagedata pid="91" name="nervous4" tags="Self-Care" position="675,1525" size="100,100">
+        Go for a run or a fast walk. Get your heartrate up and you can fool your body into thinking you&#39;re working out instead of nervous! »
 
-(after: 1ms)[(click-goto: ?Page, &quot;ExD3&quot;)]
 
-</tw-passagedata><tw-passagedata pid="97" name="ExD5" tags="Self-Care" position="825,1650" size="100,100">Once a tip starts working for you, keep going! 
+        (after: 1ms)[(click-goto: ?Page, &quot;nervous5&quot;)]
 
-$d8n[=You can always come back if you get stuck again. 
+        </tw-passagedata>
+        <tw-passagedata pid="92" name="nervous5" tags="Self-Care" position="675,1650" size="100,100">
+        Roll up a towel and thwack it against the floor. Feel the energy moving out of your body and into the floor. Or press your palms against a wall or door and push as hard as you can. »
 
-$d8n[=Remember which ones help and you&#39;ll get better at learning what works for you. 
 
-Let&#39;s check out the first tip! »
+        (after: 1ms)[(click-goto: ?Page, &quot;nervous6&quot;)]
 
+        </tw-passagedata>
+        <tw-passagedata pid="93" name="nervous6" tags="Self-Care" position="675,1775" size="100,100">
+        Shake out your arms and legs, or look up Trauma Release Exercises on YouTube. Envision the excess energy moving out of your body and into the earth. »
 
-(after: 1ms)[(click-goto: ?Page, &quot;ExD6&quot;)]
 
-</tw-passagedata><tw-passagedata pid="98" name="ExD14" tags="Self-Care" position="825,2775" size="100,100">Online services like FocusMate will pair you up with a partner for free if you don&#39;t have a handy friend.
+        (after: 1ms)[(click-goto: ?Page, &quot;nervous7&quot;)]
 
-$d8n[=Or post on social media for accountability and update the post when you&#39;re done.
+        </tw-passagedata>
+        <tw-passagedata pid="94" name="nervous7" tags="Self-Care" position="675,1900" size="100,100">
+        After you feel yourself coming back to equilibrium, check in with yourself and see what might feel good to do next.
+        ---
+        Try pausing between exercises to do some EFT or Faster EFT (tapping on pressure points) to help move that energy along. [[Tap here for an introduction.|couch6]] ■
 
 
-$d8n[=[[Ugh, none of this is working.|ExD15]]</tw-passagedata><tw-passagedata pid="99" name="winddown_nav2" tags="night" position="1000,400" size="100,100">&#39;&#39;Navigation (continued)&#39;&#39;
+        [[Back to the Self-Care Menu|SCM]]
 
-The last piece of text in a section ends with a square: □
+        </tw-passagedata>
+        <tw-passagedata pid="95" name="overstim4" tags="Self-Care" position="525,1525" size="100,100">
+        Remove as much uncomfortable stimulation as you can. 
 
-Use the curly forward/back arrows at the top of the screen to return to a previous screen. (Not your browser&#39;s back button!) 
+        Replace it with comforting or neutral sensations instead. 
 
-Got it? Let&#39;s begin.⠀»
+        Make yourself unavailable for at least twenty minutes. Communicate with anyone in your space who might try to talk to you and let them know you&#39;ll be back with them soon. »
 
 
-(after: 1ms)[(click-goto: ?Page, &quot;winddown1&quot;)]
+        (click-goto: ?Page, &quot;overstim5&quot;)
 
-</tw-passagedata><tw-passagedata pid="100" name="winddown2" tags="night" position="1000,650" size="100,100">$d8n[=Put on some quiet, relaxing music, like one of [[these playlists.|playlists]]
+        </tw-passagedata>
+        <tw-passagedata pid="96" name="ExD2" tags="Self-Care" position="825,1275" size="100,100">&#39;&#39;Do you feel:&#39;&#39;
+        * confused, spacey, or unfocused?
+        * resentful of having to do the thing?
+        * afraid of the thing not turning out perfectly?
+        * embarrassed because you&#39;ve put it off so long already?
+        * like the thing is too big/overwhelming/complicated to tackle?
+        * like you can&#39;t move forward because something else needs to happen first?
+        * or something else? »
 
-$d8n[=Pour yourself a glass of water or cup of herbal tea. 
 
-$d8n[=Cuddle with a willing person or animal if you have one. 
+        (after: 1ms)[(click-goto: ?Page, &quot;ExD3&quot;)]
 
-$d8n[=Commit to your body’s comfort￼. »
+        </tw-passagedata>
+        <tw-passagedata pid="97" name="ExD5" tags="Self-Care" position="825,1650" size="100,100">Once a tip shifts the stuck, keep working! 
 
+        $d8n[=You can always come back here if you get hung up again. 
 
-(after: 1ms)[(click-goto: ?Page, &quot;winddown3&quot;)]
+        $d8n[=Remember which ones help and you&#39;ll get better at learning what works for your unique brain.
 
-</tw-passagedata><tw-passagedata pid="101" name="winddown6" tags="night" position="1000,1150" size="100,100">Put your attention on each task. 
+        Let&#39;s check out the first tip! »
 
-$d8n[=Move slowly and deliberately. 
 
-$d8n[=Let your movements be  devotional, 
+        (after: 1ms)[(click-goto: ?Page, &quot;ExD6&quot;)]
 
-$d8n[=an act of appreciation for your space.⠀»
+        </tw-passagedata>
+        <tw-passagedata pid="98" name="ExD14" tags="Self-Care" position="825,2775" size="100,100">Online services like FocusMate will pair you up with a partner for free if you don&#39;t have a handy friend.
 
+        $d8n[=Or post on social media for accountability and update the post when you&#39;re done.
 
-(after: 1ms)[(click-goto: ?Page, &quot;winddown7&quot;)]
 
-</tw-passagedata><tw-passagedata pid="102" name="winddown11" tags="night" position="1000,1775" size="100,100">While maintaining this soft, open focus, 
+        $d8n[=[[Ugh, none of this is working.|ExD15]]</tw-passagedata>
+        <tw-passagedata pid="99" name="winddown_nav2" tags="night" position="1000,400" size="100,100">&#39;&#39;Navigation (continued)&#39;&#39;
 
-begin any last bedtime preparations.
+        The last piece of text in a section ends with a square: □
 
-(Be sure to bring some water with you to bed.) □
+        Use the curly forward/back arrows at the top of the screen to return to a previous screen. (Not your browser&#39;s back button!) 
 
+        Got it? Let&#39;s begin. »
 
-[[I&#39;m ready for sleep|sleep1]]
 
-</tw-passagedata><tw-passagedata pid="103" name="sleep_nav2" tags="night" position="1150,400" size="100,100">&#39;&#39;Navigation (Continued)&#39;&#39;
+        (after: 1ms)[(click-goto: ?Page, &quot;winddown1&quot;)]
 
-The last piece of text in a section ends with a square: □
+        </tw-passagedata>
+        <tw-passagedata pid="100" name="winddown2" tags="night" position="1000,650" size="100,100">Put on some quiet, relaxing music, like one of [[these playlists.|playlists]]
 
-Use the curly forward/back arrows at the top of the screen to go back or forward to a previous screen. (Not your browser&#39;s back button!) 
+        $d8n[=Pour yourself a glass of water or cup of herbal tea. 
 
-Got it? Let&#39;s begin.⠀»
+        $d8n[=Cuddle with a willing person or animal if you have one. 
 
+        $d8n[=Commit to your body’s comfort￼. »
 
-(after: 1ms)[(click-goto: ?Page, &quot;sleep1&quot;)]</tw-passagedata><tw-passagedata pid="104" name="sleep6" tags="night" position="1150,1150" size="100,100">&#39;&#39;Within you is an oasis of perfect calm and stillness.&#39;&#39;
 
-$d8n[=Wherever you are, 
-however you find yourself, 
-know that you can create a sanctuary here. 
+        (after: 1ms)[(click-goto: ?Page, &quot;winddown3&quot;)]
 
-$d8n[=It is always available.⠀»
+        </tw-passagedata>
+        <tw-passagedata pid="101" name="winddown6" tags="night" position="1000,1150" size="100,100">Put your attention on each task. 
 
+        $d8n[=Move slowly and deliberately. 
 
-(after: 1ms)[(click-goto: ?Page, &quot;sleep7&quot;)]
+        $d8n[=Let your movements be  devotional, 
 
-</tw-passagedata><tw-passagedata pid="105" name="About" tags="" position="700,275" size="100,100">
-#####The story behind MindfulScroll
----
-I created MindfulScroll after noticing my tendency to look at my phone right after waking up, right before falling asleep, and during the day when I wanted to be distracted.
+        $d8n[=an act of appreciation for your space.»
 
-I wanted an alternative to compulsive scrolling, so I drew on my background as a life coach and wrote what I most needed to read during these moments.
 
-The app is made up of bite-sized text snippets that offer encouragement, motivation, and comfort.
+        (after: 1ms)[(click-goto: ?Page, &quot;winddown7&quot;)]
 
-My hope is to keep expanding it to include more situations and features.
+        </tw-passagedata>
+        <tw-passagedata pid="102" name="winddown11" tags="night" position="1000,1775" size="100,100">While maintaining this soft, open focus, 
 
----
-//Last update: 2021-04-05//
+        begin any last bedtime preparations.
 
-Back to [[Help + Extras]] </tw-passagedata><tw-passagedata pid="106" name="ExD12" tags="Self-Care" position="825,2525" size="100,100">You can even write about how much you //don&#39;t// want to do the thing!
+        (Be sure to bring some water with you to bed.) □
 
-$d8n[=Just keep writing and sooner or later, something usually shifts.⠀»
 
- 
-(after: 1ms)[(click-goto: ?Page, &quot;ExD13&quot;)]
+        [[I&#39;m ready for sleep|sleep1]]
 
-</tw-passagedata></tw-storydata>
+        </tw-passagedata>
+        <tw-passagedata pid="103" name="sleep_nav2" tags="night" position="1150,400" size="100,100">&#39;&#39;Navigation (Continued)&#39;&#39;
+
+        The last piece of text in a section ends with a square: □
+
+        Use the curly forward/back arrows at the top of the screen to go back or forward to a previous screen. (Not your browser&#39;s back button!) 
+
+        Got it? Let&#39;s begin.⠀»
+
+
+        (after: 1ms)[(click-goto: ?Page, &quot;sleep1&quot;)]</tw-passagedata>
+        <tw-passagedata pid="104" name="sleep6" tags="night" position="1150,1150" size="100,100">&#39;&#39;Within you is an oasis of perfect calm and stillness.&#39;&#39;
+
+        $d8n[=Wherever you are, 
+        however you find yourself, 
+        know that you can create a sanctuary here. 
+
+        $d8n[=It is always available. »
+
+
+        (after: 1ms)[(click-goto: ?Page, &quot;sleep7&quot;)]
+
+        </tw-passagedata>
+        <tw-passagedata pid="105" name="About" tags="" position="700,275" size="100,100">
+        #####The story behind MindfulScroll
+        ---
+        I created MindfulScroll after noticing my tendency to look at my phone right after waking up, right before falling asleep, and during the day when I wanted to be distracted.
+
+        I wanted an alternative to compulsive scrolling, so I drew on my background as a life coach and wrote what I most needed to read during these moments.
+
+        The app is made up of bite-sized text snippets that offer encouragement, motivation, and comfort.
+
+        My hope is to keep expanding it to include more situations and features.
+
+        ---
+        //Last update: 2021-04-05//
+
+        Back to [[Help + Extras]] </tw-passagedata>
+        <tw-passagedata pid="106" name="ExD12" tags="Self-Care" position="825,2525" size="100,100">You can even write about how much you //don&#39;t// want to do the thing!
+
+        $d8n[=Just keep writing and sooner or later, something usually shifts. »
+
+         
+        (after: 1ms)[(click-goto: ?Page, &quot;ExD13&quot;)]
+
+        </tw-passagedata>
+        <tw-passagedata pid="107" name="couch8b" tags="Self-Care" position="487,2077" size="100,100">
+        Even if you can&#39;t get yourself to move, try narrating what it would look like or what you would do if you &#39;&#39;could&#39;&#39; get up. 
+
+        $d8n[=What&#39;s the first thing you would do?
+
+        $d8n[=This might be a good time to try some [[mental rehearsing|ExD10]].
+
+        $d8n[=The same part of our brain lights up whether we do an action or //imagine// ourselves doing the action, so this is like mental strength training. Visualizing helps it feel more real. »
+
+
+        (after: 1ms)[(click-goto: ?Page, &quot;couch9&quot;)]</tw-passagedata>
+    </tw-storydata
 <script title="Twine engine code" data-main="harlowe">"use strict";var _slicedToArray=function(){return function(e,t){if(Array.isArray(e))return e;if(Symbol.iterator in Object(e))return function(e,t){var n=[],r=!0,i=!1,a=void 0;try{for(var o,s=e[Symbol.iterator]();!(r=(o=s.next()).done)&&(n.push(o.value),!t||n.length!==t);r=!0);}catch(e){i=!0,a=e}finally{try{!r&&s.return&&s.return()}finally{if(i)throw a}}return n}(e,t);throw new TypeError("Invalid attempt to destructure non-iterable instance")}}(),_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e};function _defineProperty(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}function _toConsumableArray(e){if(Array.isArray(e)){for(var t=0,n=Array(e.length);t<e.length;t++)n[t]=e[t];return n}return Array.from(e)}!function(){
 /**
  * @license almond 0.3.3 Copyright jQuery Foundation and other contributors.
